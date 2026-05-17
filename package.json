@@ -1,0 +1,16 @@
+{
+  "name": "tiktok-slack-bot",
+  "version": "1.0.0",
+  "description": "TikTok research bot that collects trending content and posts analysis to Slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "research": "node index.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.52.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0"
+  }
+}
