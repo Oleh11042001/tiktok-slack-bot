@@ -3,6 +3,7 @@ const Anthropic = require("@anthropic-ai/sdk");
 const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
+const { execSync } = require("child_process");
 
 const anthropic = new Anthropic({ apiKey: process.env.ANTHROPIC_API_KEY });
 const CONFIG_PATH = path.join(__dirname, "config.json");
@@ -369,6 +370,39 @@ function appendSentUrls(videos) {
   fs.writeFileSync(SENT_VIDEOS_PATH, JSON.stringify([...existing], null, 2));
 }
 
+function commitAndPushSentVideos() {
+  try {
+    const exec = (cmd) => execSync(cmd, { stdio: "pipe" }).toString().trim();
+
+    // Configure git identity if not already set
+    try { exec("git config user.email"); } catch { exec('git config user.email "bot@tiktok-slack-bot"'); }
+    try { exec("git config user.name"); } catch { exec('git config user.name "TikTok Bot"'); }
+
+    // On Railway (or any CI), inject GITHUB_TOKEN into the remote URL for auth
+    if (process.env.GITHUB_TOKEN) {
+      const currentUrl = exec("git remote get-url origin");
+      const authedUrl = currentUrl.replace("https://", `https://${process.env.GITHUB_TOKEN}@`);
+      exec(`git remote set-url origin ${authedUrl}`);
+    }
+
+    exec("git add sent-videos.json");
+
+    // Nothing to commit if file is unchanged
+    const dirty = exec("git status --porcelain sent-videos.json");
+    if (!dirty) {
+      console.log("  sent-videos.json unchanged, skipping push.");
+      return;
+    }
+
+    exec('git commit -m "Update sent-videos.json"');
+    exec("git pull --rebase origin main");
+    exec("git push origin main");
+    console.log("  sent-videos.json committed and pushed to GitHub.");
+  } catch (err) {
+    console.error("  Warning: could not push sent-videos.json:", err.message);
+  }
+}
+
 async function runResearch() {
   const config = loadConfig();
   console.log("=== TikTok Research Bot Starting ===");
@@ -441,6 +475,7 @@ async function runResearch() {
   await postToSlack(buildMessage2(analysis));
   await postToSlack(buildMessage3(analysis));
   appendSentUrls(allVideos);
+  commitAndPushSentVideos();
   console.log(`  Done! 3 messages posted to Slack. ${allVideos.length} video URLs saved to sent-videos.json.`);
 }
 
