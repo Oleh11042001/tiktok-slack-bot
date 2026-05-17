@@ -354,6 +354,20 @@ async function postToSlack(payload) {
 // --- Main -------------------------------------------------------------------
 
 const RAW_CACHE_PATH = path.join(__dirname, "raw-videos.json");
+const SENT_VIDEOS_PATH = path.join(__dirname, "sent-videos.json");
+
+function loadSentUrls() {
+  if (!fs.existsSync(SENT_VIDEOS_PATH)) return new Set();
+  return new Set(JSON.parse(fs.readFileSync(SENT_VIDEOS_PATH, "utf8")));
+}
+
+function appendSentUrls(videos) {
+  const existing = loadSentUrls();
+  for (const v of videos) {
+    if (v.webVideoUrl) existing.add(v.webVideoUrl);
+  }
+  fs.writeFileSync(SENT_VIDEOS_PATH, JSON.stringify([...existing], null, 2));
+}
 
 async function runResearch() {
   const config = loadConfig();
@@ -410,6 +424,12 @@ async function runResearch() {
     console.log(`  Saved ${allVideos.length} videos to raw-videos.json`);
   }
 
+  // Filter out previously sent videos
+  const sentUrls = loadSentUrls();
+  const beforeFilter = allVideos.length;
+  allVideos = allVideos.filter((v) => !sentUrls.has(v.webVideoUrl));
+  console.log(`\n[DEDUP] Filtered ${beforeFilter - allVideos.length} already-sent videos. ${allVideos.length} remaining.`);
+
   // 4. ANALYSIS
   console.log("\n[4/5] Claude analysis...");
   const analysis = await claudeAnalyze(allVideos);
@@ -420,7 +440,8 @@ async function runResearch() {
   await postToSlack(buildMessage1(analysis));
   await postToSlack(buildMessage2(analysis));
   await postToSlack(buildMessage3(analysis));
-  console.log("  Done! 3 messages posted to Slack.");
+  appendSentUrls(allVideos);
+  console.log(`  Done! 3 messages posted to Slack. ${allVideos.length} video URLs saved to sent-videos.json.`);
 }
 
 function sleep(ms) {
