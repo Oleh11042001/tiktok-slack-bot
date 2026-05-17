@@ -141,7 +141,7 @@ function sanitizeText(str, maxLen) {
 }
 
 async function claudeAnalyze(videos) {
-  const videoData = videos.slice(0, 100).map((v) => ({
+  const videoData = videos.slice(0, 150).map((v) => ({
     text: sanitizeText(v.text, 200),
     url: v.webVideoUrl,
     views: v.playCount,
@@ -150,32 +150,37 @@ async function claudeAnalyze(videos) {
     hashtags: v.hashtags.slice(0, 10),
   }));
 
-  const prompt = `You are an expert TikTok content strategist analyzing viral health, fitness, and mental health content for a Tier 1 English-speaking audience.
+  const prompt = `You are a direct-response ad strategist and TikTok creative researcher. Your job is to find the best organic TikTok videos that can be used as ad references or inspiration for a fitness and wellness app targeting women 45+.
 
-Analyze these ${videoData.length} top-performing TikTok videos and return a JSON object. CRITICAL: all string values must be valid JSON — no literal newlines inside strings, no unescaped double quotes, no control characters.
+This audience cares about: hormonal health, perimenopause, cortisol, nervous system, weight that won't budge, energy, sleep, inflammation, feeling good in their body again. They are skeptical of hype but respond to authenticity, specificity, and being seen.
 
-Return exactly this structure:
+Analyze these ${videoData.length} TikTok videos. Select the 20 best ad references — prioritize by AD POTENTIAL (strong hook, clear angle, relatable to women 45+, adaptable to paid social) not just raw view count. Include men's content only if the angle clearly transfers to this female audience.
+
+Return ONLY a raw JSON object. No markdown fences. No explanation. All string values must be valid JSON: no literal newlines, no unescaped quotes, no control characters.
+
 {
-  "summary": "3-4 sentences overview",
-  "trending_topics": [
-    { "topic": "name", "momentum": "new|growing|stable", "total_views": 0, "description": "1-2 sentences max", "top_videos": [{"title": "max 60 chars", "url": "", "views": 0, "likes": 0}, {"title": "", "url": "", "views": 0, "likes": 0}] }
+  "ad_references": [
+    {
+      "url": "",
+      "views": 0,
+      "hook": "exact hook text from the video title or description — copy it precisely",
+      "hook_type": "one of: POV / transformation / symptom list / debunk / routine / fear / identity",
+      "angle": "the core positioning angle this video uses in 1 sentence",
+      "why_usable": "why this works specifically for women 45+ app advertising — 1 sentence",
+      "novelty": "one of: new angle / classic format / classic topic new format",
+      "adapt_idea": "one concrete specific idea for how to adapt this as an app ad — 1 sentence"
+    }
   ],
-  "viral_hooks": [
-    { "hook": "exact pattern", "why_it_works": "1 sentence", "examples": [{"text": "max 60 chars", "url": "", "views": 0}, {"text": "", "url": "", "views": 0}] }
-  ],
-  "positioning_opportunities": [
-    { "theme": "name", "trend": "new|growing|stable", "description": "1-2 sentences", "why_it_works": "1 sentence", "videos": [{"text": "max 60 chars", "url": "", "views": 0, "author": ""}, {"text": "", "url": "", "views": 0, "author": ""}] }
-  ],
-  "audience_language": [
-    { "phrase": "exact phrase", "meaning": "1 sentence", "usage_context": "1 sentence" }
-  ],
-  "emerging_creators": [
-    { "angle": "what makes them unique", "pattern": "1-2 sentences" }
+  "emerging_angles": [
+    {
+      "angle": "angle name",
+      "evidence": "which video hooks or themes support this — be specific",
+      "why_now": "why this angle is timely right now — 1 sentence"
+    }
   ]
 }
 
-Counts: exactly 8 trending_topics, 6 viral_hooks, 6 positioning_opportunities, 8 audience_language, 4 emerging_creators.
-Return ONLY the raw JSON object. No markdown fences, no explanation.
+Return exactly 20 ad_references and 6 emerging_angles.
 
 VIDEO DATA:
 ${JSON.stringify(videoData)}`;
@@ -198,7 +203,6 @@ ${JSON.stringify(videoData)}`;
   try {
     return JSON.parse(jsonStr);
   } catch (e) {
-    // Strip control characters and retry
     const cleaned = jsonStr.replace(/[\x00-\x08\x0B\x0C\x0E-\x1F\x7F]/g, " ");
     return JSON.parse(cleaned);
   }
@@ -217,130 +221,56 @@ function formatNum(n) {
   return String(n);
 }
 
-function videoLink(video) {
-  const label = truncate(video.title || video.text || "Watch video", 60);
-  return `<${video.url}|${label}> (views: ${formatNum(video.views)})`;
-}
+function buildSlackMessage(analysis, stats) {
+  const refs = analysis.ad_references || [];
+  const angles = analysis.emerging_angles || [];
 
-function buildMessage1(analysis) {
   const blocks = [
     {
       type: "header",
-      text: { type: "plain_text", text: "TikTok Weekly Research Report" },
+      text: { type: "plain_text", text: "TikTok Ad Research — Women 45+" },
     },
     {
       type: "section",
-      text: { type: "mrkdwn", text: `*Summary*\n${analysis.summary}` },
+      text: {
+        type: "mrkdwn",
+        text: `*${stats.totalCollected}* videos collected · *${stats.afterDedup}* new this run · *${refs.length}* ad references · *${angles.length}* emerging angles`,
+      },
     },
     { type: "divider" },
     {
       type: "section",
-      text: { type: "mrkdwn", text: "*Trending Topics*" },
+      text: { type: "mrkdwn", text: `*:clapper: AD REFERENCES (${refs.length})*` },
     },
   ];
 
-  for (const topic of analysis.trending_topics) {
-    const momentumLabel = { new: "[NEW]", growing: "[GROWING]", stable: "[STABLE]" }[topic.momentum] || "";
-    const links = (topic.top_videos || [])
-      .slice(0, 2)
-      .map((v) => videoLink(v))
-      .join("\n");
+  for (let i = 0; i < refs.length; i++) {
+    const r = refs[i];
+    const lines = [
+      `*${i + 1}. <${r.url}|${truncate(r.hook, 80)}>* — ${formatNum(r.views)} views`,
+      `*Hook type:* ${r.hook_type}   *Novelty:* ${r.novelty}`,
+      `*Angle:* ${r.angle}`,
+      `*Why usable:* ${r.why_usable}`,
+      `*Adapt idea:* ${r.adapt_idea}`,
+    ];
     blocks.push({
       type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `${momentumLabel} *${topic.topic}* — ${formatNum(topic.total_views)} total views\n${topic.description}${links ? "\n" + links : ""}`,
-      },
+      text: { type: "mrkdwn", text: lines.join("\n") },
     });
+    blocks.push({ type: "divider" });
   }
 
-  return { blocks };
-}
-
-function buildMessage2(analysis) {
-  const blocks = [
-    {
-      type: "header",
-      text: { type: "plain_text", text: "Viral Hooks & Audience Language" },
-    },
-    {
-      type: "section",
-      text: { type: "mrkdwn", text: "*Viral Hook Patterns*" },
-    },
-  ];
-
-  for (const hook of analysis.viral_hooks) {
-    const examples = (hook.examples || [])
-      .slice(0, 2)
-      .map((e) => videoLink(e))
-      .join("\n");
-    blocks.push({
-      type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `*"${hook.hook}"*\n_Why it works:_ ${hook.why_it_works}${examples ? "\n" + examples : ""}`,
-      },
-    });
-  }
-
-  blocks.push({ type: "divider" });
   blocks.push({
     type: "section",
-    text: { type: "mrkdwn", text: "*Audience Language*" },
+    text: { type: "mrkdwn", text: `*:rocket: EMERGING ANGLES (${angles.length})*` },
   });
 
-  for (const phrase of analysis.audience_language) {
+  for (const a of angles) {
     blocks.push({
       type: "section",
       text: {
         type: "mrkdwn",
-        text: `*"${phrase.phrase}"*\n_Meaning:_ ${phrase.meaning}\n_When used:_ ${phrase.usage_context}`,
-      },
-    });
-  }
-
-  return { blocks };
-}
-
-function buildMessage3(analysis) {
-  const blocks = [
-    {
-      type: "header",
-      text: { type: "plain_text", text: "Positioning & Creators" },
-    },
-    {
-      type: "section",
-      text: { type: "mrkdwn", text: "*Positioning Opportunities*" },
-    },
-  ];
-
-  for (const opp of analysis.positioning_opportunities) {
-    const trendLabel = { new: "[NEW]", growing: "[GROWING]", stable: "[STABLE]" }[opp.trend] || "";
-    const videos = (opp.videos || [])
-      .slice(0, 2)
-      .map((v) => videoLink(v))
-      .join("\n");
-    blocks.push({
-      type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `${trendLabel} *${opp.theme}*\n${opp.description}\n_Why it works:_ ${opp.why_it_works}${videos ? "\n" + videos : ""}`,
-      },
-    });
-  }
-
-  blocks.push({ type: "divider" });
-  blocks.push({
-    type: "section",
-    text: { type: "mrkdwn", text: "*Emerging Creator Patterns*" },
-  });
-
-  for (const creator of analysis.emerging_creators) {
-    blocks.push({
-      type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `*${creator.angle}*\n${creator.pattern}`,
+        text: `*${a.angle}*\n_Evidence:_ ${a.evidence}\n_Why now:_ ${a.why_now}`,
       },
     });
   }
@@ -460,9 +390,10 @@ async function runResearch() {
 
   // Filter out previously sent videos
   const sentUrls = loadSentUrls();
-  const beforeFilter = allVideos.length;
+  const totalCollected = allVideos.length;
   allVideos = allVideos.filter((v) => !sentUrls.has(v.webVideoUrl));
-  console.log(`\n[DEDUP] Filtered ${beforeFilter - allVideos.length} already-sent videos. ${allVideos.length} remaining.`);
+  const afterDedup = allVideos.length;
+  console.log(`\n[DEDUP] Filtered ${totalCollected - afterDedup} already-sent videos. ${afterDedup} remaining.`);
 
   // 4. ANALYSIS
   console.log("\n[4/5] Claude analysis...");
@@ -471,12 +402,11 @@ async function runResearch() {
 
   // 5. OUTPUT
   console.log("\n[5/5] Posting to Slack...");
-  await postToSlack(buildMessage1(analysis));
-  await postToSlack(buildMessage2(analysis));
-  await postToSlack(buildMessage3(analysis));
+  const stats = { totalCollected, afterDedup };
+  await postToSlack(buildSlackMessage(analysis, stats));
   appendSentUrls(allVideos);
   commitAndPushSentVideos();
-  console.log(`  Done! 3 messages posted to Slack. ${allVideos.length} video URLs saved to sent-videos.json.`);
+  console.log(`  Done! 1 message posted to Slack. ${afterDedup} video URLs saved to sent-videos.json.`);
 }
 
 function sleep(ms) {
