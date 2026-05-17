@@ -404,9 +404,18 @@ async function runResearch() {
   console.log("\n[5/5] Posting to Slack...");
   const stats = { totalCollected, afterDedup };
   await postToSlack(buildSlackMessage(analysis, stats));
+  console.log("  Slack message posted.");
+
+  // Save full report
+  const today = new Date().toISOString().slice(0, 10);
+  const reportPath = path.join(__dirname, "reports", `${today}.json`);
+  fs.mkdirSync(path.join(__dirname, "reports"), { recursive: true });
+  fs.writeFileSync(reportPath, JSON.stringify({ date: today, stats, analysis }, null, 2));
+  console.log(`  Report saved to reports/${today}.json`);
+
   appendSentUrls(allVideos);
   commitAndPushSentVideos();
-  console.log(`  Done! 1 message posted to Slack. ${afterDedup} video URLs saved to sent-videos.json.`);
+  console.log(`  Done! ${afterDedup} video URLs saved to sent-videos.json.`);
 }
 
 function sleep(ms) {
