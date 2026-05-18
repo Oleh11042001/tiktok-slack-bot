@@ -221,15 +221,28 @@ function formatNum(n) {
   return String(n);
 }
 
-function buildSlackMessage(analysis, stats) {
+function buildRefBlock(r, i) {
+  const lines = [
+    `*${i + 1}. <${r.url}|${truncate(r.hook, 80)}>* — ${formatNum(r.views)} views`,
+    `*Hook type:* ${r.hook_type}   *Novelty:* ${r.novelty}`,
+    `*Angle:* ${r.angle}`,
+    `*Why usable:* ${r.why_usable}`,
+    `*Adapt idea:* ${r.adapt_idea}`,
+  ];
+  return [
+    { type: "section", text: { type: "mrkdwn", text: lines.join("\n") } },
+    { type: "divider" },
+  ];
+}
+
+function buildSlackMessages(analysis, stats) {
   const refs = analysis.ad_references || [];
   const angles = analysis.emerging_angles || [];
+  const mid = Math.ceil(refs.length / 2);
 
-  const blocks = [
-    {
-      type: "header",
-      text: { type: "plain_text", text: "TikTok Ad Research — Women 45+" },
-    },
+  // Message 1: header + stats + first half of refs
+  const msg1 = [
+    { type: "header", text: { type: "plain_text", text: "TikTok Ad Research — Women 45+" } },
     {
       type: "section",
       text: {
@@ -238,44 +251,29 @@ function buildSlackMessage(analysis, stats) {
       },
     },
     { type: "divider" },
-    {
-      type: "section",
-      text: { type: "mrkdwn", text: `*:clapper: AD REFERENCES (${refs.length})*` },
-    },
+    { type: "section", text: { type: "mrkdwn", text: `*:clapper: AD REFERENCES (${refs.length}) — part 1/${refs.length > mid ? 2 : 1}*` } },
   ];
+  for (let i = 0; i < mid; i++) msg1.push(...buildRefBlock(refs[i], i));
 
-  for (let i = 0; i < refs.length; i++) {
-    const r = refs[i];
-    const lines = [
-      `*${i + 1}. <${r.url}|${truncate(r.hook, 80)}>* — ${formatNum(r.views)} views`,
-      `*Hook type:* ${r.hook_type}   *Novelty:* ${r.novelty}`,
-      `*Angle:* ${r.angle}`,
-      `*Why usable:* ${r.why_usable}`,
-      `*Adapt idea:* ${r.adapt_idea}`,
-    ];
-    blocks.push({
-      type: "section",
-      text: { type: "mrkdwn", text: lines.join("\n") },
-    });
-    blocks.push({ type: "divider" });
+  // Message 2: second half of refs (only if there are any)
+  const msg2 = [];
+  if (refs.length > mid) {
+    msg2.push({ type: "section", text: { type: "mrkdwn", text: `*:clapper: AD REFERENCES — part 2/2*` } });
+    for (let i = mid; i < refs.length; i++) msg2.push(...buildRefBlock(refs[i], i));
   }
 
-  blocks.push({
-    type: "section",
-    text: { type: "mrkdwn", text: `*:rocket: EMERGING ANGLES (${angles.length})*` },
-  });
-
+  // Message 3: emerging angles
+  const msg3 = [
+    { type: "section", text: { type: "mrkdwn", text: `*:rocket: EMERGING ANGLES (${angles.length})*` } },
+  ];
   for (const a of angles) {
-    blocks.push({
+    msg3.push({
       type: "section",
-      text: {
-        type: "mrkdwn",
-        text: `*${a.angle}*\n_Evidence:_ ${a.evidence}\n_Why now:_ ${a.why_now}`,
-      },
+      text: { type: "mrkdwn", text: `*${a.angle}*\n_Evidence:_ ${a.evidence}\n_Why now:_ ${a.why_now}` },
     });
   }
 
-  return { blocks };
+  return [msg1, msg2.length ? msg2 : null, msg3].filter(Boolean).map((b) => ({ blocks: b }));
 }
 
 async function postToSlack(payload) {
@@ -403,7 +401,9 @@ async function runResearch() {
   // 5. OUTPUT
   console.log("\n[5/5] Posting to Slack...");
   const stats = { totalCollected, afterDedup };
-  await postToSlack(buildSlackMessage(analysis, stats));
+  for (const msg of buildSlackMessages(analysis, stats)) {
+    await postToSlack(msg);
+  }
   console.log("  Slack message posted.");
 
   // Save full report
