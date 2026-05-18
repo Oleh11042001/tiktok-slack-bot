@@ -79,6 +79,28 @@ function dedupeVideos(videos) {
   });
 }
 
+async function fetchTodayApifyRuns() {
+  const token = process.env.APIFY_API_TOKEN;
+  const today = new Date().toISOString().slice(0, 10);
+  const runsRes = await axios.get(
+    `https://api.apify.com/v2/acts/clockworks~tiktok-scraper/runs?token=${token}&limit=20&desc=true`
+  );
+  const todayRuns = runsRes.data.data.items.filter(
+    (r) => r.status === "SUCCEEDED" && r.startedAt?.startsWith(today)
+  );
+  if (todayRuns.length === 0) return null;
+  console.log(`  Found ${todayRuns.length} completed Apify run(s) from today`);
+  let allRaw = [];
+  for (const run of todayRuns) {
+    const res = await axios.get(
+      `https://api.apify.com/v2/datasets/${run.defaultDatasetId}/items?token=${token}&limit=5000`
+    );
+    console.log(`  Run ${run.id}: ${res.data.length} items`);
+    allRaw.push(...res.data);
+  }
+  return dedupeVideos(allRaw.map(extractVideoFields)).sort((a, b) => b.playCount - a.playCount);
+}
+
 // --- Claude helpers ---------------------------------------------------------
 
 async function claudePreSnowball(sampleVideos) {
@@ -343,47 +365,76 @@ async function runResearch() {
     allVideos = JSON.parse(fs.readFileSync(RAW_CACHE_PATH, "utf8"));
     console.log(`  Loaded ${allVideos.length} videos from cache`);
   } else {
-    // 1. PRE-SNOWBALL
-    console.log("\n[1/5] Pre-snowball: sampling base hashtags...");
-    const preSnowballRaw = await runApify(config.baseHashtags, [], 10);
-    const preSnowballVideos = preSnowballRaw.map(extractVideoFields);
-    console.log(`  Collected ${preSnowballVideos.length} sample videos`);
+    let partialVideos = [];
 
-    const snowballTerms = await claudePreSnowball(preSnowballVideos);
-    console.log(`  Claude suggested: ${snowballTerms.join(", ")}`);
+    try {
+      // 1. PRE-SNOWBALL
+      console.log("\n[1/5] Pre-snowball: sampling base hashtags...");
+      const preSnowballRaw = await runApify(config.baseHashtags, [], 10);
+      const preSnowballVideos = preSnowballRaw.map(extractVideoFields);
+      console.log(`  Collected ${preSnowballVideos.length} sample videos`);
+      partialVideos = preSnowballVideos;
 
-    const snowballHashtags = snowballTerms.filter((t) => !t.includes(" "));
-    const snowballQueries = snowballTerms.filter((t) => t.includes(" "));
+      const snowballTerms = await claudePreSnowball(preSnowballVideos);
+      console.log(`  Claude suggested: ${snowballTerms.join(", ")}`);
 
-    // 2. MAIN COLLECTION
-    console.log("\n[2/5] Main collection...");
-    const allHashtags = [...new Set([...config.hashtags, ...snowballHashtags])];
-    const allSearchTerms = [...new Set([...config.searchTerms, ...snowballQueries])];
-    console.log(`  Hashtags: ${allHashtags.length}, Search queries: ${allSearchTerms.length}`);
+      const snowballHashtags = snowballTerms.filter((t) => !t.includes(" "));
+      const snowballQueries = snowballTerms.filter((t) => t.includes(" "));
 
-    const mainRaw = await runApify(allHashtags, allSearchTerms, 20);
-    allVideos = dedupeVideos([...preSnowballVideos, ...mainRaw.map(extractVideoFields)]);
-    allVideos.sort((a, b) => b.playCount - a.playCount);
-    console.log(`  Total unique videos after main collection: ${allVideos.length}`);
+      // 2. MAIN COLLECTION
+      console.log("\n[2/5] Main collection...");
+      const allHashtags = [...new Set([...config.hashtags, ...snowballHashtags])];
+      const allSearchTerms = [...new Set([...config.searchTerms, ...snowballQueries])];
+      console.log(`  Hashtags: ${allHashtags.length}, Search queries: ${allSearchTerms.length}`);
 
-    // 3. POST-SNOWBALL
-    console.log("\n[3/5] Post-snowball: spotting unexpected topics...");
-    const postSnowballTerms = await claudePostSnowball(allVideos);
-    if (postSnowballTerms.length > 0) {
-      console.log(`  Found ${postSnowballTerms.length} additional terms: ${postSnowballTerms.join(", ")}`);
-      const postHashtags = postSnowballTerms.filter((t) => !t.includes(" "));
-      const postQueries = postSnowballTerms.filter((t) => t.includes(" "));
-      const postRaw = await runApify(postHashtags, postQueries, 20);
-      allVideos = dedupeVideos([...allVideos, ...postRaw.map(extractVideoFields)]);
+      const mainRaw = await runApify(allHashtags, allSearchTerms, 20);
+      allVideos = dedupeVideos([...preSnowballVideos, ...mainRaw.map(extractVideoFields)]);
       allVideos.sort((a, b) => b.playCount - a.playCount);
-      console.log(`  Total unique videos after post-snowball: ${allVideos.length}`);
-    } else {
-      console.log("  No unexpected topics found, skipping post-snowball run");
-    }
+      console.log(`  Total unique videos after main collection: ${allVideos.length}`);
+      partialVideos = allVideos;
 
-    // Save raw collected videos for reuse / debugging
-    fs.writeFileSync(RAW_CACHE_PATH, JSON.stringify(allVideos, null, 2));
-    console.log(`  Saved ${allVideos.length} videos to raw-videos.json`);
+      // 3. POST-SNOWBALL
+      console.log("\n[3/5] Post-snowball: spotting unexpected topics...");
+      const postSnowballTerms = await claudePostSnowball(allVideos);
+      if (postSnowballTerms.length > 0) {
+        console.log(`  Found ${postSnowballTerms.length} additional terms: ${postSnowballTerms.join(", ")}`);
+        const postHashtags = postSnowballTerms.filter((t) => !t.includes(" "));
+        const postQueries = postSnowballTerms.filter((t) => t.includes(" "));
+        const postRaw = await runApify(postHashtags, postQueries, 20);
+        allVideos = dedupeVideos([...allVideos, ...postRaw.map(extractVideoFields)]);
+        allVideos.sort((a, b) => b.playCount - a.playCount);
+        console.log(`  Total unique videos after post-snowball: ${allVideos.length}`);
+      } else {
+        console.log("  No unexpected topics found, skipping post-snowball run");
+      }
+
+      // Save raw collected videos for reuse / debugging
+      fs.writeFileSync(RAW_CACHE_PATH, JSON.stringify(allVideos, null, 2));
+      console.log(`  Saved ${allVideos.length} videos to raw-videos.json`);
+
+    } catch (err) {
+      console.warn(`\n[RECOVERY] Apify scraping failed: ${err.message}`);
+      console.log("  Trying to recover from today's existing Apify runs...");
+
+      let todayVideos = null;
+      try {
+        todayVideos = await fetchTodayApifyRuns();
+      } catch (fetchErr) {
+        console.warn(`  Could not fetch today's runs: ${fetchErr.message}`);
+      }
+
+      if (todayVideos && todayVideos.length > 0) {
+        allVideos = dedupeVideos([...partialVideos, ...todayVideos]);
+        allVideos.sort((a, b) => b.playCount - a.playCount);
+        console.log(`  Recovered ${allVideos.length} videos (${partialVideos.length} partial + today's Apify runs)`);
+      } else if (fs.existsSync(RAW_CACHE_PATH)) {
+        console.log("  No today's runs found — falling back to raw-videos.json...");
+        allVideos = JSON.parse(fs.readFileSync(RAW_CACHE_PATH, "utf8"));
+        console.log(`  Loaded ${allVideos.length} videos from cache`);
+      } else {
+        throw new Error(`Apify scraping failed and no fallback data available: ${err.message}`);
+      }
+    }
   }
 
   // Filter out previously sent videos
