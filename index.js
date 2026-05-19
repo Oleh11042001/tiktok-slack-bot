@@ -628,11 +628,8 @@ async function runResearch() {
   // Filter to last 7 days — only growing, recent content
   console.log("\n[FILTER] Keeping only videos from the last 7 days...");
   const recentVideos = filterRecentVideos(allVideos, 7);
-
-  // Dedupe against sent videos
-  const sentUrls = loadSentUrls();
-  const digestVideos = recentVideos.filter((v) => !sentUrls.has(v.webVideoUrl));
-  console.log(`  ${digestVideos.length} unseen recent videos for digest`);
+  const digestVideos = recentVideos;
+  console.log(`  ${digestVideos.length} videos for digest`);
 
   // 4. ANALYSIS
   console.log("\n[4/5] Claude weekly digest analysis...");
@@ -658,8 +655,6 @@ async function runResearch() {
   fs.writeFileSync(reportPath, JSON.stringify({ date: today, stats, digest }, null, 2));
   console.log(`  Report saved to reports/${today}.json`);
 
-  appendSentUrls(recentVideos);
-  commitAndPushSentVideos();
   console.log("  Done.");
 }
 
