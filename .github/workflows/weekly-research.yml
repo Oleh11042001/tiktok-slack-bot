@@ -2,7 +2,7 @@ name: Weekly TikTok Research
 
 on:
   schedule:
-    - cron: '0 8 * * 1'  # Every Monday at 8:00 AM UTC
+    - cron: '0 9 * * 1'  # Every Monday at 9:00 AM UTC
   workflow_dispatch:       # Allow manual triggers from GitHub UI
 
 jobs:
@@ -10,8 +10,30 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout TikTok bot
         uses: actions/checkout@v4
+
+      - name: Checkout Reddit bot (for latest report)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/reddit-slack-bot
+          path: reddit-slack-bot
+          token: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true  # Reddit report is optional — bot runs without it
+
+      - name: Copy latest Reddit report (if available)
+        run: |
+          if [ -d "reddit-slack-bot/reports" ]; then
+            LATEST=$(ls reddit-slack-bot/reports/*.json 2>/dev/null | sort | tail -1)
+            if [ -n "$LATEST" ]; then
+              cp "$LATEST" reddit-report.json
+              echo "Reddit report copied: $LATEST"
+            else
+              echo "No Reddit reports found"
+            fi
+          else
+            echo "Reddit bot repo not available — skipping Reddit context"
+          fi
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
@@ -22,9 +44,10 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      - name: Run TikTok research
+      - name: Run TikTok weekly research
         env:
           SLACK_WEBHOOK_URL: ${{ secrets.SLACK_WEBHOOK_URL }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           APIFY_API_TOKEN: ${{ secrets.APIFY_API_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: node index.js
