@@ -537,6 +537,37 @@ function commitAndPushSentVideos() {
   }
 }
 
+function commitAndPushReport(reportPath, date) {
+  try {
+    const exec = (cmd) => execSync(cmd, { stdio: "pipe" }).toString().trim();
+
+    try { exec("git config user.email"); } catch { exec('git config user.email "bot@tiktok-slack-bot"'); }
+    try { exec("git config user.name"); } catch { exec('git config user.name "TikTok Bot"'); }
+
+    if (process.env.GITHUB_TOKEN) {
+      const currentUrl = exec("git remote get-url origin");
+      if (!currentUrl.includes("@")) {
+        const authedUrl = currentUrl.replace("https://", `https://${process.env.GITHUB_TOKEN}@`);
+        exec(`git remote set-url origin ${authedUrl}`);
+      }
+    }
+
+    exec(`git add "${reportPath}"`);
+    const dirty = exec(`git status --porcelain "${reportPath}"`);
+    if (!dirty) {
+      console.log("  Report unchanged, skipping push.");
+      return;
+    }
+
+    exec(`git commit -m "Add report ${date}"`);
+    exec("git pull --rebase origin main");
+    exec("git push origin main");
+    console.log(`  Report committed and pushed.`);
+  } catch (err) {
+    console.error("  Warning: could not push report:", err.message);
+  }
+}
+
 async function runResearch() {
   const config = loadConfig();
   console.log("=== TikTok Weekly Research Bot ===");
@@ -649,11 +680,12 @@ async function runResearch() {
   }
   console.log("  Slack messages posted.");
 
-  // Save report
+  // Save and commit report
   const reportPath = path.join(__dirname, "reports", `${today}.json`);
   fs.mkdirSync(path.join(__dirname, "reports"), { recursive: true });
   fs.writeFileSync(reportPath, JSON.stringify({ date: today, stats, digest }, null, 2));
   console.log(`  Report saved to reports/${today}.json`);
+  commitAndPushReport(reportPath, today);
 
   console.log("  Done.");
 }

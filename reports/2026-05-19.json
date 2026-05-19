@@ -1,0 +1,258 @@
+{
+  "date": "2026-05-19",
+  "stats": {
+    "totalCollected": 1162,
+    "recentVideos": 196,
+    "weekOf": "2026-05-19"
+  },
+  "digest": {
+    "week_summary": "This week's TikTok health and wellness landscape was dominated by somatic healing, nervous system regulation, and trauma-body connection content, with creators consistently linking stored stress to physical symptoms like jaw tension, neck pain, and fatigue. Anti-inflammatory eating remained a high-volume pillar, with Costco and Walmart haul formats driving discovery, while pilates content continued its upward climb through aspirational transformation clips. Mental Health Awareness Month provided cultural scaffolding for an unusually high volume of emotional healing, grief, and identity content — but perimenopause-specific content was notably underrepresented despite being a dominant pain point in the 45+ community, signaling a significant content gap.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#guthealth",
+          "video_count": 12,
+          "signal": "stable",
+          "why_now": "Anti-inflammatory diet content and gut microbiome research drove consistent volume across food, supplement, and wellness creators this week."
+        },
+        {
+          "tag": "#somatichealing",
+          "video_count": 11,
+          "signal": "exploding",
+          "why_now": "Creators are connecting stored trauma to physical symptoms like jaw tension and neck pain, making somatic practices newly accessible to mainstream wellness audiences."
+        },
+        {
+          "tag": "#selfcare",
+          "video_count": 10,
+          "signal": "stable",
+          "why_now": "Sunday reset and slow morning routines kept this evergreen tag high-volume throughout the weekend posting surge."
+        },
+        {
+          "tag": "#antiinflammatorydiet",
+          "video_count": 9,
+          "signal": "growing",
+          "why_now": "Crossover between gut health, joint pain, and weight loss audiences is accelerating adoption of anti-inflammatory framing as a unifying wellness identity."
+        },
+        {
+          "tag": "#pilates",
+          "video_count": 8,
+          "signal": "growing",
+          "why_now": "Reformer vs mat debate content and aspirational transformation clips are pulling new audiences into the pilates funnel weekly."
+        },
+        {
+          "tag": "#nervoussystemregulation",
+          "video_count": 8,
+          "signal": "exploding",
+          "why_now": "May mental health month combined with somatic trend is pushing nervous system reset content into mainstream feeds beyond the trauma-healing niche."
+        },
+        {
+          "tag": "#healingjourney",
+          "video_count": 7,
+          "signal": "stable",
+          "why_now": "Mental Health Awareness Month gave this perennial tag renewed cultural relevance and higher posting frequency this week."
+        },
+        {
+          "tag": "#hotgirlwalk",
+          "video_count": 6,
+          "signal": "stable",
+          "why_now": "Multiple community walk meetup posts and step-count accountability content kept this tag consistently active across demographics."
+        }
+      ],
+      "new_this_week": [
+        "#cyclesyncing",
+        "#bilateralcoordination",
+        "#fasciarelease",
+        "#zone2cardio",
+        "#nervoussystemreset"
+      ],
+      "fading": [
+        "#detox",
+        "#colonhydrotherapy",
+        "#dopaminedetox"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Somatic Body-Part Targeting",
+        "description": "Creators are naming specific muscles and body parts — psoas, jaw, neck, fascia — as storage sites for stress and trauma, offering micro-exercises viewers can do immediately. For women 45+, this reframes mysterious physical symptoms like stiffness, jaw clenching, and chronic tension as nervous system responses rather than age-related decline.",
+        "example_hook": "trauma gets stuck in this one muscle — only 10-20% of your trauma is stored in your verbal memory, the rest is stored in your body",
+        "example_url": "https://www.tiktok.com/@theworkoutwitch/video/7639840854739258638",
+        "views": 45800,
+        "why_now": "The convergence of Mental Health Awareness Month and growing somatic literacy is pushing body-based healing out of therapy circles and into mainstream wellness content."
+      },
+      {
+        "trend": "Zone 2 Cardio as the Smart Woman's Fat Loss Protocol",
+        "description": "Zone 2 cardio is being positioned as a science-backed, low-impact alternative to high-intensity training, with creators explaining the metabolic and longevity benefits in accessible terms. This trend maps perfectly to women 45+ dealing with joint pain and fatigue who have been failed by aggressive workout programs.",
+        "example_hook": "Zone 2 running is the most misunderstood thing in running — hopefully this helps you",
+        "example_url": "https://www.tiktok.com/@austinlooser/video/7639890105229905165",
+        "views": 6956,
+        "why_now": "Growing awareness of cortisol dysregulation and hormonal sensitivity is making low-intensity training newly aspirational rather than a compromise."
+      },
+      {
+        "trend": "Perimenopause Identity Loss Storytelling",
+        "description": "A small but emotionally potent cluster of creators is narrating perimenopause as an identity crisis — becoming a stranger to yourself mentally and emotionally — rather than a purely physical event. This content is resonating deeply with women who feel unseen by mainstream health media and gaslit by medical providers.",
+        "example_hook": "Nobody warned women that perimenopause could feel like becoming a stranger to yourself — not just hot flushes but anxiety, grief, overwhelm, rage, numbness",
+        "example_url": "https://www.tiktok.com/@katskarbek/video/7639612004289989908",
+        "views": 9880,
+        "why_now": "Reddit and community forums are flooded with perimenopause grief content this week, and TikTok creators are beginning to mirror that emotional vocabulary, creating a major first-mover opportunity."
+      },
+      {
+        "trend": "Bilateral Brain Coordination Workouts",
+        "description": "Creators are presenting simple coordination drills that work both brain hemispheres simultaneously, framing movement as a brain health and Alzheimer's prevention tool. For women 45+, this reframes exercise as cognitive protection, not just physical maintenance.",
+        "example_hook": "Bilateral coordination drills are one of my favorite ways to support brain health because they challenge both sides of the brain to work together at the same time",
+        "example_url": "https://www.tiktok.com/@maryann_with_a_plan/video/7640849144189308173",
+        "views": 10400,
+        "why_now": "Brain fog is a top-reported perimenopause symptom and aging anxiety is rising among midlife women, making cognitive fitness content newly urgent and shareable."
+      },
+      {
+        "trend": "Hormone Rage Humor as Entry Point",
+        "description": "Creators are using relatable humor about feeling irrationally furious — over silverware, small inconveniences, nothing — as a low-barrier entry point into hormone health education. The comedic framing disarms shame and converts emotional recognition into educational engagement.",
+        "example_hook": "If you've ever stood in your kitchen, genuinely furious about silverware placement, and then thought who even am I right now… this is for you",
+        "example_url": "https://www.tiktok.com/@beautybykatguthealth/video/7641095463990562078",
+        "views": 3113,
+        "why_now": "Emotional volatility and rage are among the most underaddressed perimenopause symptoms, and humor is lowering the barrier to engagement for women who feel too ashamed to search for help directly."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@thedailyshow",
+        "profile_url": "https://www.tiktok.com/@thedailyshow",
+        "why_follow": "Useful for tracking how mainstream media is framing women's health topics like chronic fatigue and emerging health panics in ways that shape public perception.",
+        "top_video_url": "https://www.tiktok.com/@thedailyshow/video/7639808635190643982",
+        "top_video_views": 758100,
+        "top_video_hook": "Health experts are getting chronic fatigue syndrome from having to repeatedly explain that hantavirus is NOT another Covid"
+      },
+      {
+        "handle": "@candasbarnes",
+        "profile_url": "https://www.tiktok.com/@candasbarnes",
+        "why_follow": "Emotional healing content with high organic reach signals a wellness audience hungry for awareness-first, shame-free entry points into personal health journeys.",
+        "top_video_url": "https://www.tiktok.com/@candasbarnes/video/7639615618794278157",
+        "top_video_views": 730100,
+        "top_video_hook": "Healing starts with awareness — what's one thing you've faced lately?"
+      },
+      {
+        "handle": "@elysian.living",
+        "profile_url": "https://www.tiktok.com/@elysian.living",
+        "why_follow": "High-performing self-care aesthetic content reveals the visual and emotional tone that drives engagement among women prioritizing restorative routines.",
+        "top_video_url": "https://www.tiktok.com/@elysian.living/video/7639520926463184159",
+        "top_video_views": 704600,
+        "top_video_hook": "the best type of therapy"
+      },
+      {
+        "handle": "@bayleegrover",
+        "profile_url": "https://www.tiktok.com/@bayleegrover",
+        "why_follow": "Anxiety and emotional health content generating rapid follower growth signals an underserved audience seeking relatable mental and physical wellness content.",
+        "top_video_url": "https://www.tiktok.com/@bayleegrover/video/7639955516487175437",
+        "top_video_views": 671700,
+        "top_video_hook": "BIG HUGSSSS SO MANY NEW PEOPLE I LUV YA"
+      },
+      {
+        "handle": "@theworkoutwitch",
+        "profile_url": "https://www.tiktok.com/@theworkoutwitch",
+        "why_follow": "The most active and consistent creator in the somatic healing and body-stored trauma niche this week, directly addressing physical symptoms like jaw tension, neck pain, and breathlessness that mirror perimenopause experiences.",
+        "top_video_url": "https://www.tiktok.com/@theworkoutwitch/video/7639840854739258638",
+        "top_video_views": 45800,
+        "top_video_hook": "trauma gets stuck in this one muscle — only 10-20% of your trauma is stored in your verbal memory, the rest is stored in your body"
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Total identity loss — no longer recognizing yourself mentally, emotionally, or physically",
+        "url": "https://www.tiktok.com/@katskarbek/video/7639612004289989908",
+        "views": 9880,
+        "hook": "Nobody warned women that perimenopause could feel like becoming a stranger to yourself — not just hot flushes but anxiety, grief, overwhelm, rage, numbness",
+        "why_match": "This video directly names the identity dissolution experience that Reddit users described this week, validating the emotional reality of perimenopause beyond physical symptoms."
+      },
+      {
+        "reddit_topic": "Rage, mood swings, and emotional volatility that feel alien and relationship-threatening",
+        "url": "https://www.tiktok.com/@beautybykatguthealth/video/7641095463990562078",
+        "views": 3113,
+        "hook": "If you've ever stood in your kitchen, genuinely furious about silverware placement, and then thought who even am I right now… this is for you",
+        "why_match": "Uses humor to normalize hormone-driven rage in a way that directly mirrors the shame and confusion Reddit users expressed about feeling like a different person."
+      },
+      {
+        "reddit_topic": "Crushing, non-restorative fatigue that disrupts every area of life",
+        "url": "https://www.tiktok.com/@thedailyshow/video/7639808635190643982",
+        "views": 758100,
+        "hook": "Health experts are getting chronic fatigue syndrome from having to repeatedly explain that hantavirus is NOT another Covid",
+        "why_match": "While satirical, this video reflects mainstream cultural fatigue discourse and the frustration of having complex fatigue symptoms dismissed — a theme raw in this week's Reddit conversations."
+      },
+      {
+        "reddit_topic": "Unexplained, sudden-onset joint pain and body stiffness that appeared overnight",
+        "url": "https://www.tiktok.com/@naturebuddies2222/video/7640856532275580174",
+        "views": 3679,
+        "hook": "Painful knees? This Turmeric remedy works wonders in 2 weeks — comment YES if you're trying it",
+        "why_match": "Addresses sudden joint pain with a natural remedy framing that matches the desperation Reddit users expressed when joints began failing them without explanation."
+      },
+      {
+        "reddit_topic": "Brain fog so severe it affects work performance and basic communication",
+        "url": "https://www.tiktok.com/@maryann_with_a_plan/video/7640849144189308173",
+        "views": 10400,
+        "hook": "Bilateral coordination drills are one of my favorite ways to support brain health because they challenge both sides of the brain to work together at the same time",
+        "why_match": "Offers an actionable, movement-based response to cognitive decline that speaks directly to women experiencing perimenopause brain fog who want agency over their mental sharpness."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@thedailyshow/video/7639808635190643982",
+        "views": 758100,
+        "hook": "Health experts are getting chronic fatigue syndrome from having to repeatedly explain that hantavirus is NOT another Covid",
+        "angle": "Satirical take on health communication fatigue that reflects broader cultural exhaustion with medical dismissiveness."
+      },
+      {
+        "url": "https://www.tiktok.com/@candasbarnes/video/7639615618794278157",
+        "views": 730100,
+        "hook": "Healing starts with awareness — what's one thing you've faced lately?",
+        "angle": "Emotional wellness prompt that invites audience reflection as the gateway into a healing identity."
+      },
+      {
+        "url": "https://www.tiktok.com/@elysian.living/video/7639520926463184159",
+        "views": 704600,
+        "hook": "the best type of therapy",
+        "angle": "Self-care as therapeutic ritual, positioning sensory routines as mental health maintenance."
+      },
+      {
+        "url": "https://www.tiktok.com/@bayleegrover/video/7639955516487175437",
+        "views": 671700,
+        "hook": "BIG HUGSSSS SO MANY NEW PEOPLE I LUV YA",
+        "angle": "Community-building moment capitalizing on rapid audience growth in the anxiety and wellness space."
+      },
+      {
+        "url": "https://www.tiktok.com/@journalwithace/video/7639877418441903373",
+        "views": 657400,
+        "hook": "your mental health matters — full episode is on Spotify, link in bio, I love you all",
+        "angle": "Mental health awareness content using parasocial warmth to drive podcast audience conversion."
+      },
+      {
+        "url": "https://www.tiktok.com/@caseykellyy/video/7639769835701898510",
+        "views": 626700,
+        "hook": "Best bite of food of my life",
+        "angle": "Food satisfaction content that crosses over into wellness audiences through high-quality protein framing."
+      },
+      {
+        "url": "https://www.tiktok.com/@mindfulsources/video/7640157527149202710",
+        "views": 613100,
+        "hook": "healed enough to close the door, but human enough to still look at it sometimes",
+        "angle": "Healing identity micro-affirmation that validates non-linear recovery and emotional complexity."
+      },
+      {
+        "url": "https://www.tiktok.com/@daymyfeelings/video/7639675209104018709",
+        "views": 608200,
+        "hook": "",
+        "angle": "Emotion-led content with no text hook relying entirely on visual or audio storytelling to drive high engagement."
+      },
+      {
+        "url": "https://www.tiktok.com/@e.1en.aa/video/7640592205379325216",
+        "views": 596400,
+        "hook": "#nikolaspilates",
+        "angle": "Aspirational pilates content riding a named instructor trend to drive high organic discovery."
+      },
+      {
+        "url": "https://www.tiktok.com/@huddishealth/video/7639938456445111582",
+        "views": 532900,
+        "hook": "The best advice for weight loss I was given",
+        "angle": "Authority-led weight loss tip framed as insider wisdom, leveraging curiosity gap to drive completion rate."
+      }
+    ]
+  }
+}
