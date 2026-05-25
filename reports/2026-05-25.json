@@ -1,0 +1,258 @@
+{
+  "date": "2026-05-25",
+  "stats": {
+    "totalCollected": 1158,
+    "recentVideos": 275,
+    "weekOf": "2026-05-25"
+  },
+  "digest": {
+    "week_summary": "This week's TikTok health and wellness space was dominated by nervous system regulation, perimenopause awareness, and somatic healing content — with creators bridging physical symptoms to emotional root causes at scale. Gut health, cortisol management, and slow morning routines rounded out the landscape, reflecting a broad audience appetite for low-intensity, high-meaning wellness practices. Women's hormonal health — particularly perimenopause — saw a notable surge in both creator output and engagement, signaling a maturing and increasingly vocal community.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#healing",
+          "video_count": 18,
+          "signal": "stable",
+          "why_now": "Broad emotional wellness umbrella term that consistently anchors vulnerable, relatable content across demographics."
+        },
+        {
+          "tag": "#nervoussystemregulation",
+          "video_count": 12,
+          "signal": "exploding",
+          "why_now": "Somatic and nervous system content is surging as audiences seek science-backed explanations for stress, burnout, and chronic symptoms."
+        },
+        {
+          "tag": "#perimenopause",
+          "video_count": 11,
+          "signal": "exploding",
+          "why_now": "A growing wave of women 40-55 is demanding honest, medically-grounded content about hormonal transition that mainstream media has historically ignored."
+        },
+        {
+          "tag": "#somatichealing",
+          "video_count": 10,
+          "signal": "exploding",
+          "why_now": "Somatic therapy has crossed from niche therapeutic circles into mainstream wellness as a framework for processing trauma and chronic stress physically."
+        },
+        {
+          "tag": "#mentalhealth",
+          "video_count": 10,
+          "signal": "stable",
+          "why_now": "Evergreen mental health awareness content maintains consistent volume as a catch-all for anxiety, depression, and emotional processing posts."
+        },
+        {
+          "tag": "#guthealth",
+          "video_count": 8,
+          "signal": "growing",
+          "why_now": "Gut health continues to expand from digestive symptom content into immunity, mood, and hormonal health crossover territory."
+        },
+        {
+          "tag": "#selfcare",
+          "video_count": 8,
+          "signal": "stable",
+          "why_now": "Selfcare remains a durable, high-volume tag anchoring routine, beauty, and slow-living content across all wellness niches."
+        },
+        {
+          "tag": "#intuitiveeating",
+          "video_count": 7,
+          "signal": "growing",
+          "why_now": "Anti-diet culture content is gaining renewed traction as backlash against restrictive weight loss trends builds momentum."
+        }
+      ],
+      "new_this_week": [
+        "#cortisolbelly",
+        "#vagusnerve",
+        "#slowmornings",
+        "#cyclesyncing",
+        "#somaticphysio"
+      ],
+      "fading": [
+        "#bodypositivity",
+        "#dopaminedetox",
+        "#cleangirlroutine"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Somatic Nervous System Reset Content",
+        "description": "Creators are teaching simple, actionable somatic exercises — breathwork, jaw release, diaphragm retraining — framed as tools to physically exit chronic stress states rather than just cope mentally. For women 45+, this is highly relevant as perimenopause amplifies nervous system dysregulation, anxiety, and physical tension that conventional advice dismisses.",
+        "example_hook": "Relearning how to breathe was one of the hardest things I've done and one of the most important.",
+        "example_url": "https://www.tiktok.com/@bmorgan190/video/7642798312629783822",
+        "views": 71400,
+        "why_now": "Post-pandemic burnout recovery content is evolving from mental health framing into body-based physiology, meeting audiences who have exhausted talk-therapy approaches."
+      },
+      {
+        "trend": "Perimenopause Symptom Reality Checks",
+        "description": "Creators — including medical professionals — are cataloguing unexpected, under-discussed perimenopause symptoms (rage, isolation, random pain, anxiety) in a format that validates lived experience before offering solutions. Women 45+ are the core audience and are sharing these videos widely because they feel finally seen.",
+        "example_hook": "Nobody warned us that perimenopause could look like THIS.",
+        "example_url": "https://www.tiktok.com/@edithwellness/video/7641691111802539286",
+        "views": 363900,
+        "why_now": "A critical mass of Gen X and elder Millennial women is entering perimenopause simultaneously, creating enormous demand for content that names their symptoms accurately."
+      },
+      {
+        "trend": "Cortisol Belly and Hormonal Weight Resistance",
+        "description": "Creators are connecting visible abdominal changes directly to cortisol and hormonal imbalance rather than diet failure, offering targeted reset protocols instead of generic weight loss advice. This reframes a deeply frustrating experience for women 45+ who exercise and eat well but cannot shift midline weight.",
+        "example_hook": "Only way to fix cortisol belly is by lowering your cortisol levels.",
+        "example_url": "https://www.tiktok.com/@drbarbella/video/7642051901655207175",
+        "views": 253300,
+        "why_now": "Cortisol-centric explanations for midlife body changes are filling a gap left by mainstream fitness content that ignores hormonal context entirely."
+      },
+      {
+        "trend": "Slow Morning Ritual as Mental Health Practice",
+        "description": "Slow morning routine content has evolved beyond aesthetics into an explicit nervous system and mental health practice, with creators framing unhurried mornings as physiological regulation tools rather than luxury. For women 45+ managing cortisol, sleep disruption, and anxiety, this framing makes morning routines feel medically purposeful rather than indulgent.",
+        "example_hook": "love romanticizing slow mornings — what's your favorite morning ritual?",
+        "example_url": "https://www.tiktok.com/@xo_debb/video/7641682066341481741",
+        "views": 8563,
+        "why_now": "Slow living content is absorbing the nervous system regulation trend, giving audiences a lifestyle container for somatic health practices that does not require formal therapy or supplements."
+      },
+      {
+        "trend": "Gut-Hormone Connection Education",
+        "description": "Creators are linking gut health symptoms — bloating, SIBO, histamine intolerance, enzyme deficiency — to broader hormonal and immune dysregulation, positioning gut care as foundational to whole-body women's health. For women 45+, this is compelling because perimenopause directly disrupts gut microbiome balance, making symptoms they have ignored suddenly explainable.",
+        "example_hook": "Have you checked your gut recently?",
+        "example_url": "https://www.tiktok.com/@sandis.shop/video/7641693605932829982",
+        "views": 1100000,
+        "why_now": "Growing awareness of the gut-brain-hormone axis is pushing gut health content beyond digestion into a systems-level wellness framework that resonates with midlife women seeking root-cause answers."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@marmunches",
+        "profile_url": "https://www.tiktok.com/@marmunches",
+        "why_follow": "Top-performing account this week by raw view count — worth monitoring for format and hook structures that drive algorithmic reach in the health-adjacent space.",
+        "top_video_url": "https://www.tiktok.com/@marmunches/video/7642070435475098910",
+        "top_video_views": 14500000,
+        "top_video_hook": "No text caption — pure video hook driving 14.5M views in the wellness-adjacent space."
+      },
+      {
+        "handle": "@nevernsubermoney",
+        "profile_url": "https://www.tiktok.com/@nevernsubermoney",
+        "why_follow": "Consistently producing high-performing nervous system regulation and vagus nerve content with two videos totalling over 2.8M views this week, making them a key signal account for somatic wellness trends.",
+        "top_video_url": "https://www.tiktok.com/@nevernsubermoney/video/7641564498104536340",
+        "top_video_views": 2400000,
+        "top_video_hook": "Can you do this?"
+      },
+      {
+        "handle": "@sandis.shop",
+        "profile_url": "https://www.tiktok.com/@sandis.shop",
+        "why_follow": "Driving over 1.1M views with a gut health digestive enzyme demo that blends product education with visceral visual proof — a repeatable format worth studying for supplement and wellness app content.",
+        "top_video_url": "https://www.tiktok.com/@sandis.shop/video/7641693605932829982",
+        "top_video_views": 1100000,
+        "top_video_hook": "Oh yes it broke down the carbs!!! Amazing!"
+      },
+      {
+        "handle": "@edithwellness",
+        "profile_url": "https://www.tiktok.com/@edithwellness",
+        "why_follow": "Producing high-reach perimenopause awareness content that directly targets our core 45+ female audience with validating, emotionally resonant symptom education.",
+        "top_video_url": "https://www.tiktok.com/@edithwellness/video/7641691111802539286",
+        "top_video_views": 363900,
+        "top_video_hook": "Nobody warned us that perimenopause could look like THIS."
+      },
+      {
+        "handle": "@drdawnmandeville",
+        "profile_url": "https://www.tiktok.com/@drdawnmandeville",
+        "why_follow": "Medical professional creating high-engagement perimenopause duration and symptom content — a credibility anchor creator worth tracking for evidence-based hormonal health messaging.",
+        "top_video_url": "https://www.tiktok.com/@drdawnmandeville/video/7643056754913316110",
+        "top_video_views": 735500,
+        "top_video_hook": "How long does PERIMENOPAUSE last? Longer than you think."
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Unexplained perimenopause symptoms dismissed by doctors",
+        "url": "https://www.tiktok.com/@edithwellness/video/7641691111802539286",
+        "views": 363900,
+        "hook": "Nobody warned us that perimenopause could look like THIS.",
+        "why_match": "Directly names the random, unexpected symptoms — anxiety, pain, body changes — that women report being dismissed for in clinical settings, providing the validation and language they are searching for online."
+      },
+      {
+        "reddit_topic": "Midlife abdominal weight gain that does not respond to diet or exercise",
+        "url": "https://www.tiktok.com/@drbarbella/video/7642051901655207175",
+        "views": 253300,
+        "hook": "Only way to fix cortisol belly is by lowering your cortisol levels.",
+        "why_match": "Reframes a near-universal frustration among women 45+ by identifying cortisol and hormonal imbalance as the root cause rather than personal failure, which is the exact narrative shift Reddit discussions in this demographic consistently seek."
+      },
+      {
+        "reddit_topic": "Chronic stress, burnout, and physical tension that will not resolve",
+        "url": "https://www.tiktok.com/@bmorgan190/video/7642798312629783822",
+        "views": 71400,
+        "hook": "Relearning how to breathe was one of the hardest things I've done and one of the most important.",
+        "why_match": "Speaks directly to the physical manifestation of chronic stress — shallow breathing, fascial tension, nervous system dysregulation — that women in midlife frequently describe on Reddit as a body-level problem that mental health advice alone cannot fix."
+      },
+      {
+        "reddit_topic": "Gut bloating, digestive issues, and food sensitivities worsening in midlife",
+        "url": "https://www.tiktok.com/@sandis.shop/video/7641693605932829982",
+        "views": 1100000,
+        "hook": "Oh yes it broke down the carbs!!! Amazing!",
+        "why_match": "Targets the bloating and digestive enzyme deficiency that women 45+ frequently report as a sudden-onset midlife issue, offering a concrete product-based intervention that matches how Reddit users in this demographic seek actionable solutions."
+      },
+      {
+        "reddit_topic": "Anxiety and mood changes in perimenopause not recognised as hormonal",
+        "url": "https://www.tiktok.com/@drdawnmandeville/video/7643056754913316110",
+        "views": 735500,
+        "hook": "How long does PERIMENOPAUSE last? Longer than you think.",
+        "why_match": "Addresses the timeline confusion and unrecognised anxiety and mood symptoms of perimenopause that frequently surface in Reddit communities where women describe being told their symptoms are stress rather than hormonal transition."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@marmunches/video/7642070435475098910",
+        "views": 14500000,
+        "hook": "No caption — high-velocity wellness-adjacent video driving algorithmic reach",
+        "angle": "Unknown hook format achieving massive organic reach in the health content space."
+      },
+      {
+        "url": "https://www.tiktok.com/@nevernsubermoney/video/7641564498104536340",
+        "views": 2400000,
+        "hook": "Can you do this?",
+        "angle": "Challenge-format nervous system and vagus nerve regulation exercise driving massive participation intent."
+      },
+      {
+        "url": "https://www.tiktok.com/@kaykai_ntch/video/7643737006094257415",
+        "views": 1700000,
+        "hook": "Main extra in that day... cute right?",
+        "angle": "Thai-language hormones and entertainment content reaching 1.7M views, signalling global appetite for hormone-related content."
+      },
+      {
+        "url": "https://www.tiktok.com/@alphamind078/video/7641277551289077005",
+        "views": 1700000,
+        "hook": "The Phrase Nobody Notices",
+        "angle": "Mindset and success principles content leveraging curiosity-gap hook to drive high retention and shares."
+      },
+      {
+        "url": "https://www.tiktok.com/@t.modex/video/7643526004148899079",
+        "views": 1500000,
+        "hook": "See you take hormones",
+        "angle": "Hormones-branded entertainment content in Thai market demonstrating cross-cultural hormonal health awareness trend."
+      },
+      {
+        "url": "https://www.tiktok.com/@felipesua23/video/7641421221749361941",
+        "views": 1400000,
+        "hook": "Hice Pilates por un mes para ver si es posible perder peso y aumentar músculo.",
+        "angle": "30-day pilates body composition experiment storytime with celebrity credibility anchor driving massive reach."
+      },
+      {
+        "url": "https://www.tiktok.com/@anthonydbrice/video/7642026010313084174",
+        "views": 1300000,
+        "hook": "If it still hurts, it's proof God is still healing that part of you.",
+        "angle": "Faith-based emotional healing affirmation content driving high share and save behavior."
+      },
+      {
+        "url": "https://www.tiktok.com/@jbeinghonest_/video/7642544612111895838",
+        "views": 1200000,
+        "hook": "Link to books in my bio — awareness, healing, relationships, heartbreak",
+        "angle": "Emotional healing and relationship awareness content connecting deep personal pain to actionable resources."
+      },
+      {
+        "url": "https://www.tiktok.com/@sandis.shop/video/7641693605932829982",
+        "views": 1100000,
+        "hook": "Oh yes it broke down the carbs!!! Amazing!",
+        "angle": "Visual proof-of-concept digestive enzyme demo creating visceral wow-moment that drives product curiosity and shares."
+      },
+      {
+        "url": "https://www.tiktok.com/@drdawnmandeville/video/7643056754913316110",
+        "views": 735500,
+        "hook": "How long does PERIMENOPAUSE last? Longer than you think.",
+        "angle": "Medical authority reframing perimenopause duration expectations to validate and alarm a highly engaged 45+ female audience."
+      }
+    ]
+  }
+}
