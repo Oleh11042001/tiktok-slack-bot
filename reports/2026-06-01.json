@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-01",
+  "stats": {
+    "totalCollected": 1153,
+    "recentVideos": 211,
+    "weekOf": "2026-06-01"
+  },
+  "digest": {
+    "week_summary": "This week TikTok's health and wellness space was dominated by a convergence of perimenopause awareness, nervous system regulation content, and healing-focused mental health storytelling. Women's hormonal health — particularly perimenopause symptoms, PCOS, and cycle syncing — generated consistent mid-to-high engagement, while somatic healing and nervous system reset content flooded the feed alongside the slow morning routine aesthetic. Fitness content leaned toward low-intensity modalities like walking, zone 2 cardio, and rest day education rather than high-intensity workouts.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#healing",
+          "video_count": 18,
+          "signal": "exploding",
+          "why_now": "Mental health awareness month combined with a cultural pivot toward emotional processing over hustle culture is driving mass adoption of healing-identity content."
+        },
+        {
+          "tag": "#perimenopause",
+          "video_count": 14,
+          "signal": "exploding",
+          "why_now": "A critical mass of millennial women entering perimenopause is creating urgent demand for symptom validation and practical advice that mainstream medicine has historically ignored."
+        },
+        {
+          "tag": "#mentalhealth",
+          "video_count": 12,
+          "signal": "stable",
+          "why_now": "June men's mental health awareness month kept this tag active across both male and female creator communities."
+        },
+        {
+          "tag": "#nervoussystemhealing",
+          "video_count": 11,
+          "signal": "exploding",
+          "why_now": "Somatic and trauma-informed wellness content is crossing over from niche therapeutic spaces into mainstream lifestyle feeds."
+        },
+        {
+          "tag": "#morningroutine",
+          "video_count": 10,
+          "signal": "stable",
+          "why_now": "The slow morning aesthetic continues to resonate as an antidote to burnout culture, anchored by aspirational but accessible daily ritual content."
+        },
+        {
+          "tag": "#somatichealing",
+          "video_count": 8,
+          "signal": "growing",
+          "why_now": "Body-based trauma release is gaining credibility as creators blend clinical language with accessible at-home practices."
+        },
+        {
+          "tag": "#cyclesyncing",
+          "video_count": 7,
+          "signal": "growing",
+          "why_now": "Hormone literacy among younger women is filtering up to the 40-plus demographic who are applying it to perimenopause management."
+        },
+        {
+          "tag": "#dopaminedetox",
+          "video_count": 4,
+          "signal": "growing",
+          "why_now": "Broader cultural anxiety about phone addiction and overstimulation is pushing this concept beyond its original productivity-bro niche into mainstream wellness."
+        }
+      ],
+      "new_this_week": [
+        "#nervoussystemreset",
+        "#wombhealing",
+        "#antiinflammatorydiet",
+        "#fatlossover40",
+        "#energyafter40"
+      ],
+      "fading": [
+        "#hotgirlwalk",
+        "#calisthenics",
+        "#intuitiveeating"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Perimenopause Symptom Myth-Busting",
+        "description": "Creators are listing bizarre, unexpected perimenopause symptoms — itchy ears, word-finding loss, random rage, brain fog — that doctors never warned them about, framing content as urgent community education. This directly addresses the isolation and medical gaslighting women 45-plus consistently report, making it highly shareable within the target demographic.",
+        "example_hook": "I swear perimenopause symptoms are some of the weirdest, most random things no one prepares women for. Half of these sound like anxiety, autoimmune issues...",
+        "example_url": "https://www.tiktok.com/@nancyychristine/video/7644722787986296078",
+        "views": 194000,
+        "why_now": "A generation of women who grew up demanding transparency from healthcare systems is refusing to suffer in silence, and TikTok is filling the education gap left by underprepared physicians."
+      },
+      {
+        "trend": "Nervous System Reset Tutorials",
+        "description": "Short, instructional videos teaching vagus nerve activation, parasympathetic breathing, ear pulls, and somatic release exercises are exploding as accessible at-home stress tools. For women 45-plus dealing with elevated cortisol, sleep disruption, and anxiety, these bite-sized nervous system interventions offer immediate actionable relief without a therapist or gym.",
+        "example_hook": "Pulling your earlobe may help activate a parasympathetic response — the part of your nervous system responsible for REST, RELAXATION and RECOVERY.",
+        "example_url": "https://www.tiktok.com/@kinezioadvancedmassage/video/7644402931185241375",
+        "views": 344000,
+        "why_now": "Post-pandemic chronic stress awareness combined with the rising popularity of somatic therapy has created a mainstream audience hungry for DIY nervous system tools."
+      },
+      {
+        "trend": "Slow Morning as Self-Prescribed Medicine",
+        "description": "Creators are reframing slow, intentional mornings not as a luxury aesthetic but as a physiological necessity for nervous system regulation and cortisol management, explicitly naming the health benefits rather than just the vibe. For women 45-plus managing hormonal fatigue and sleep disruption, this positions the slow morning ritual as a legitimate health intervention rather than laziness.",
+        "example_hook": "Sorry but this is actually the best morning routine — where are my slow morning divas at",
+        "example_url": "https://www.tiktok.com/@alexaarose_/video/7645297844747783454",
+        "views": 356600,
+        "why_now": "Burnout culture backlash has peaked and creators are now backing the slow morning trend with nervous system and cortisol science, giving it legitimacy beyond aesthetics."
+      },
+      {
+        "trend": "Creatine for Women in Perimenopause",
+        "description": "Medical and fitness creators are presenting new research on creatine supplementation specifically for perimenopausal and menopausal women, citing cognitive, muscle, and bone density benefits that go beyond traditional gym use. This is highly relevant for women 45-plus who are watching muscle mass and mental clarity decline and are looking for evidence-backed, accessible supplements.",
+        "example_hook": "Women in Perimenopause — new research on creatine you need to know about.",
+        "example_url": "https://www.tiktok.com/@robertwblove/video/7645338218061122847",
+        "views": 317300,
+        "why_now": "A wave of recent studies on creatine's neuroprotective and musculoskeletal benefits for menopausal women is filtering from academic journals into creator content in real time."
+      },
+      {
+        "trend": "Somatic Body-Symptom Mapping",
+        "description": "Creators are connecting specific physical symptoms — hair loss, chronic fatigue, brain fog, word forgetting — to emotional and nervous system states, presenting a mind-body map that validates physical complaints as having emotional roots. Women 45-plus experiencing unexplained physical symptoms that doctors attribute to aging will find this framework both validating and empowering.",
+        "example_hook": "Hair loss somatically connects to fear, tension, and trying to control everything because trusting the process feels impossible.",
+        "example_url": "https://www.tiktok.com/@yourbodyremembers/video/7645898633866530062",
+        "views": 44200,
+        "why_now": "The mainstreaming of trauma-informed care language has created appetite for somatic explanations of physical symptoms as an alternative to purely biomedical framing."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@evolvewithjaz",
+        "profile_url": "https://www.tiktok.com/@evolvewithjaz",
+        "why_follow": "High-reach fitness motivation creator documenting a real fat loss journey with emotional authenticity that resonates strongly with women who feel unseen in mainstream fitness spaces.",
+        "top_video_url": "https://www.tiktok.com/@evolvewithjaz/video/7645183533366906119",
+        "top_video_views": 2800000,
+        "top_video_hook": "Trusting yourself and the process"
+      },
+      {
+        "handle": "@kylefullerofficial",
+        "profile_url": "https://www.tiktok.com/@kylefullerofficial",
+        "why_follow": "Emotional wellness creator whose motivational content about resilience and healing after setbacks consistently achieves massive reach among women navigating midlife transitions.",
+        "top_video_url": "https://www.tiktok.com/@kylefullerofficial/video/7645338218061122847",
+        "top_video_views": 1800000,
+        "top_video_hook": "Back On Your Feet"
+      },
+      {
+        "handle": "@thepowertalks",
+        "profile_url": "https://www.tiktok.com/@thepowertalks",
+        "why_follow": "Psychology and trauma education account delivering high-engagement insight content about emotional suppression and healing that maps directly to our target audience's pain points.",
+        "top_video_url": "https://www.tiktok.com/@thepowertalks/video/7645052861121907981",
+        "top_video_views": 1500000,
+        "top_video_hook": "Some people go quiet because speaking up never felt safe for them."
+      },
+      {
+        "handle": "@david_jay24",
+        "profile_url": "https://www.tiktok.com/@david_jay24",
+        "why_follow": "Dopamine detox and mindset creator reaching large audiences with behavioral wellness content that connects digital overstimulation to physical and mental health outcomes.",
+        "top_video_url": "https://www.tiktok.com/@david_jay24/video/7645717126589795598",
+        "top_video_views": 1400000,
+        "top_video_hook": "I couldn't stop laughing at the start. #dopaminedetox"
+      },
+      {
+        "handle": "@footdocdana",
+        "profile_url": "https://www.tiktok.com/@footdocdana",
+        "why_follow": "Medical doctor creator who consistently bridges clinical knowledge and relatable symptom storytelling across PCOS, hormones, chronic fatigue, and brain fog — all core concerns for women 45-plus.",
+        "top_video_url": "https://www.tiktok.com/@footdocdana/video/7644297316198911246",
+        "top_video_views": 1000000,
+        "top_video_hook": "I always tell my patients that having toe hair means they have good blood flow — but if it's excessive and combined with other symptoms it's definitely worth investigating."
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Medical gaslighting and lack of perimenopause education from doctors",
+        "url": "https://www.tiktok.com/@nancyychristine/video/7644722787986296078",
+        "views": 194000,
+        "hook": "I swear perimenopause symptoms are some of the weirdest, most random things no one prepares women for. Half of these sound like anxiety, autoimmune issues...",
+        "why_match": "This video directly validates the experience of being dismissed or misdiagnosed by naming the bizarre symptoms doctors routinely fail to connect to perimenopause."
+      },
+      {
+        "reddit_topic": "Unexplained weight gain and belly fat despite diet and exercise",
+        "url": "https://www.tiktok.com/@pcos.weight.loss/video/7644636065097207053",
+        "views": 91900,
+        "hook": "PCOS belly is not because we ate too many calories — it is caused by insulin resistance, high testosterone, and high cortisol. Do not let anyone blame you.",
+        "why_match": "This video directly reframes weight gain as a hormonal and metabolic issue rather than a willpower failure, addressing the shame and confusion women report around midlife body changes."
+      },
+      {
+        "reddit_topic": "Chronic fatigue, brain fog, and feeling like a stranger in your own body",
+        "url": "https://www.tiktok.com/@laurenlhale/video/7645029176302505247",
+        "views": 383800,
+        "hook": "If you are in perimenopause and constantly feel puffy, foggy, and exhausted — read this.",
+        "why_match": "This video names the exact symptom cluster — puffiness, brain fog, exhaustion — that women in perimenopause report feeling invalidated about and connects it directly to inflammation."
+      },
+      {
+        "reddit_topic": "Sleep disruption and waking at 3am with a racing mind",
+        "url": "https://www.tiktok.com/@kinezioadvancedmassage/video/7644402931185241375",
+        "views": 344000,
+        "hook": "Pulling your earlobe may help activate a parasympathetic response — the part of your nervous system responsible for REST, RELAXATION and RECOVERY.",
+        "why_match": "This video offers an immediate, accessible tool for the nervous system dysregulation that drives the 3am wake cycle that perimenopausal women frequently cite as their most disruptive symptom."
+      },
+      {
+        "reddit_topic": "Feeling emotionally dysregulated, anxious, and not like yourself",
+        "url": "https://www.tiktok.com/@drbisleen/video/7645707771907722514",
+        "views": 1864,
+        "hook": "A dysregulated nervous system will slowly convince you that you are less confident, less social, less joyful, and not yourself anymore.",
+        "why_match": "This video directly names the identity-loss experience women in midlife hormonal transition describe, reframing it as nervous system dysregulation rather than a permanent personality change."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@evolvewithjaz/video/7645183533366906119",
+        "views": 2800000,
+        "hook": "Trusting yourself and the process",
+        "angle": "Emotional fitness motivation framed around self-trust resonates as both a physical and psychological journey."
+      },
+      {
+        "url": "https://www.tiktok.com/@kylefullerofficial/video/7645338218061122847",
+        "views": 1800000,
+        "hook": "Back On Your Feet",
+        "angle": "Resilience and recovery messaging positioned as universal motivational content crossing fitness and emotional healing."
+      },
+      {
+        "url": "https://www.tiktok.com/@thepowertalks/video/7645052861121907981",
+        "views": 1500000,
+        "hook": "Some people go quiet because speaking up never felt safe for them.",
+        "angle": "Trauma and emotional suppression psychology delivered as validating insight content for people who carry silent pain."
+      },
+      {
+        "url": "https://www.tiktok.com/@david_jay24/video/7645717126589795598",
+        "views": 1400000,
+        "hook": "I couldn't stop laughing at the start.",
+        "angle": "Dopamine detox experience documented with humor to make behavioral wellness approachable and relatable."
+      },
+      {
+        "url": "https://www.tiktok.com/@tabithaswatosh/video/7646155932581350686",
+        "views": 1400000,
+        "hook": "Finding myself again",
+        "angle": "Personal mental health healing journey shared with radical vulnerability to build community around identity recovery."
+      },
+      {
+        "url": "https://www.tiktok.com/@peaceofdeace/video/7646277623529606413",
+        "views": 1200000,
+        "hook": "Happy Men's Mental Health Awareness",
+        "angle": "Mental health awareness month content driving mass engagement through timely cultural relevance."
+      },
+      {
+        "url": "https://www.tiktok.com/@mz.guccishoez/video/7645357730487717150",
+        "views": 1100000,
+        "hook": "Spanish people Fatigue.",
+        "angle": "Cultural identity and fatigue framed as a relatable community experience driving high shareability."
+      },
+      {
+        "url": "https://www.tiktok.com/@footdocdana/video/7644297316198911246",
+        "views": 1000000,
+        "hook": "I always tell my patients that having toe hair means they have good blood flow — but if it's excessive and combined with other symptoms it's definitely worth investigating.",
+        "angle": "Medical professional connecting an unexpected physical symptom to PCOS and hormonal imbalance to drive curiosity and education."
+      },
+      {
+        "url": "https://www.tiktok.com/@doctorsethimd/video/7644725709449055501",
+        "views": 568700,
+        "hook": "Foods that cause bloating or help debloating — some foods calm your gut while others do the opposite. Can you tell the difference?",
+        "angle": "Gut health education delivered as an interactive quiz format to maximize engagement and saves."
+      },
+      {
+        "url": "https://www.tiktok.com/@rootedinyourbody/video/7644790406252612894",
+        "views": 495900,
+        "hook": "As a ceremonial pelvic care specialist and somatic practitioner — the emotional imprints from past trauma will ALWAYS wreck havoc in the body until you address them.",
+        "angle": "Somatic and pelvic health specialist connecting unresolved trauma to chronic physical symptoms in women's bodies."
+      }
+    ]
+  }
+}
