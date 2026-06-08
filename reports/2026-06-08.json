@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-08",
+  "stats": {
+    "totalCollected": 1177,
+    "recentVideos": 231,
+    "weekOf": "2026-06-08"
+  },
+  "digest": {
+    "week_summary": "Men's Mental Health Month drove the highest-volume content this week, with viral posts about emotional vulnerability and peer support dominating the broader wellness space. For women's health specifically, cortisol anxiety, nervous system regulation, perimenopause awareness, and anti-inflammatory eating emerged as the strongest recurring content pillars. Somatic healing, trauma release through movement, and gut health optimization rounded out a week where functional wellness framing outperformed pure fitness content.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#mentalhealth",
+          "video_count": 22,
+          "signal": "stable",
+          "why_now": "Men's Mental Health Month in June is driving a platform-wide surge in mental wellness content across all demographics."
+        },
+        {
+          "tag": "#healing",
+          "video_count": 18,
+          "signal": "growing",
+          "why_now": "Trauma healing and self-healing content is sustaining momentum as audiences seek emotional processing frameworks post-pandemic."
+        },
+        {
+          "tag": "#traumahealing",
+          "video_count": 14,
+          "signal": "growing",
+          "why_now": "Somatic and EMDR-adjacent trauma content is gaining traction as mainstream audiences discover body-based healing modalities."
+        },
+        {
+          "tag": "#antiinflammatory",
+          "video_count": 13,
+          "signal": "exploding",
+          "why_now": "Anti-inflammatory eating is being reframed as a lifestyle identity rather than a diet, fueling serialized recipe content and daily accountability formats."
+        },
+        {
+          "tag": "#cortisol",
+          "video_count": 10,
+          "signal": "exploding",
+          "why_now": "Cortisol is being used as a pop-science shorthand for stress, fatigue, and weight gain, making it a high-search keyword across health and lifestyle content."
+        },
+        {
+          "tag": "#nervoussystem",
+          "video_count": 9,
+          "signal": "growing",
+          "why_now": "Nervous system regulation has crossed over from therapy TikTok into general wellness, with breathwork and vagus nerve hacks driving discovery."
+        },
+        {
+          "tag": "#guthealth",
+          "video_count": 9,
+          "signal": "stable",
+          "why_now": "Gut health remains a perennial performer anchored by supplement and food-as-medicine content from credentialed creators."
+        },
+        {
+          "tag": "#morningroutine",
+          "video_count": 8,
+          "signal": "stable",
+          "why_now": "Morning routine content maintains consistent algorithmic favor as a high-retention lifestyle format especially in summer months."
+        }
+      ],
+      "new_this_week": [
+        "#nervoussystemreset",
+        "#hopecore",
+        "#bodyrecomposition",
+        "#lowcortisol",
+        "#musculoskeletalmenopause"
+      ],
+      "fading": [
+        "#hotgirlwalk",
+        "#cleangirlaesthetic",
+        "#75hard"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Cortisol as Lifestyle Villain",
+        "description": "Creators are using cortisol as a universal explanation for belly fat, fatigue, anxiety, and poor sleep, often without clinical framing but with high emotional resonance. For women 45+ this maps directly onto perimenopause symptoms they are already experiencing but may not have language for.",
+        "example_hook": "low cortisol",
+        "example_url": "https://www.tiktok.com/@katiesigmondbts/video/7648354418038983949",
+        "views": 46300,
+        "why_now": "Cortisol anxiety has been building in wellness spaces for months and is now hitting mainstream audiences searching for simple explanations for complex hormonal symptoms."
+      },
+      {
+        "trend": "Perimenopause Symptom Revelation Series",
+        "description": "Creators and OB-GYNs are posting list-format videos exposing surprising or under-discussed perimenopause symptoms that women mistake for other conditions. This format is performing because it creates an aha moment for women 45+ who have been gaslit or misdiagnosed for years.",
+        "example_hook": "8 Scary menopause symptoms that cause major health anxiety!",
+        "example_url": "https://www.tiktok.com/@kari_wright/video/7648791976086752530",
+        "views": 16500,
+        "why_now": "Mainstream menopause awareness driven by celebrity advocacy and HRT conversations in media is pushing audiences to seek symptom validation content on social platforms."
+      },
+      {
+        "trend": "Anti-Inflammatory Eating Serialized Content",
+        "description": "Creators are packaging anti-inflammatory recipes into numbered day-by-day series formats that drive return viewers and account follows over the course of a week. For women 45+ dealing with joint pain, bloating, and hormonal inflammation this content is highly actionable and deeply relatable.",
+        "example_hook": "day 1/7 series: anti-inflammatory summer salads",
+        "example_url": "https://www.tiktok.com/@annabellecassidy_/video/7646499031262252310",
+        "views": 35500,
+        "why_now": "Serialized health content outperforms one-off posts in retention metrics and creators have discovered this format drives sustained algorithmic distribution across a full week."
+      },
+      {
+        "trend": "Somatic Hip Opening for Trauma Release",
+        "description": "Short-form somatic exercise videos specifically targeting hip flexors as a site of stored emotional trauma are gaining traction, blending fitness with nervous system healing in a single format. Women 45+ who have experienced chronic stress or unresolved trauma are responding to the dual physical and emotional promise of this content.",
+        "example_hook": "Your hips hold more than tight muscles. They hold stress, suppressed emotions, and survival patterns from years of proving yourself, bracing, and pushing.",
+        "example_url": "https://www.tiktok.com/@stretchwithcoachb/video/7648585865484160287",
+        "views": 4052,
+        "why_now": "The mainstreaming of somatic therapy language is creating a bridge between fitness content and mental health content that resonates especially with midlife women processing decades of accumulated stress."
+      },
+      {
+        "trend": "Zone 2 Cardio for Longevity and Mood",
+        "description": "Zone 2 cardio is being repositioned from an elite athletic training tool into an accessible daily wellness practice emphasizing fat metabolism, mood improvement, and longevity benefits. For women 45+ who feel intimidated by high-intensity exercise or who are managing metabolic changes, the low-effort high-reward framing is especially compelling.",
+        "example_hook": "Ever since I started doing daily zone 2 cardio I've just felt better overall. Happier, yes really, the daily endorphin release is real.",
+        "example_url": "https://www.tiktok.com/@jonatan.andersson5/video/7647595894971305238",
+        "views": 3175,
+        "why_now": "Longevity science content has made zone 2 a household concept and creators are now democratizing it for general audiences who want science-backed but accessible fitness guidance."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@jacksonbro24",
+        "profile_url": "https://www.tiktok.com/@jacksonbro24",
+        "why_follow": "Highest-reach mental health creator this week with 7.1M views on a single post, useful for tracking how emotional wellness content crosses gender and age demographics.",
+        "top_video_url": "https://www.tiktok.com/@jacksonbro24/video/7648197395695684871",
+        "top_video_views": 7100000,
+        "top_video_hook": "It's June happy men's mental health month"
+      },
+      {
+        "handle": "@blvck.r7",
+        "profile_url": "https://www.tiktok.com/@blvck.r7",
+        "why_follow": "Community-driven mental health content with 3.3M views shows how peer check-in messaging resonates broadly and can inform community-building features for wellness apps.",
+        "top_video_url": "https://www.tiktok.com/@blvck.r7/video/7646727687393840392",
+        "top_video_views": 3300000,
+        "top_video_hook": "A reminder this Men's Mental Health Month: you don't have to carry everything alone."
+      },
+      {
+        "handle": "@bb_vi7",
+        "profile_url": "https://www.tiktok.com/@bb_vi7",
+        "why_follow": "Trauma and childhood healing content hitting 3.3M views signals the massive audience appetite for emotional processing content that overlaps with women 45+ healing journeys.",
+        "top_video_url": "https://www.tiktok.com/@bb_vi7/video/7646504401162587423",
+        "top_video_views": 3300000,
+        "top_video_hook": "#traumahealing #childhoodtrauma #mentalhealth #relationships #childhood"
+      },
+      {
+        "handle": "@e.1en.aa",
+        "profile_url": "https://www.tiktok.com/@e.1en.aa",
+        "why_follow": "Pilates content reaching 2M views with minimal hashtag strategy demonstrates strong organic reach for movement content targeting the women's wellness demographic.",
+        "top_video_url": "https://www.tiktok.com/@e.1en.aa/video/7647585847017016609",
+        "top_video_views": 2000000,
+        "top_video_hook": "#elenaspilates #fy #pilates"
+      },
+      {
+        "handle": "@kathryn.tatess",
+        "profile_url": "https://www.tiktok.com/@kathryn.tatess",
+        "why_follow": "Mindset and perfectionism content hitting 1M views with zero hashtags shows that authentic personal narrative about self-improvement resonates powerfully with women seeking behavioral change frameworks.",
+        "top_video_url": "https://www.tiktok.com/@kathryn.tatess/video/7646553559395208478",
+        "top_video_views": 1000000,
+        "top_video_hook": "When I shifted my mindset from: let me wait until I have the energy to do this perfectly to let me just get this done imperfectly so it doesn't"
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Unexplained perimenopausal symptoms being dismissed or misattributed",
+        "url": "https://www.tiktok.com/@jennasheinelle/video/7647263897786912013",
+        "views": 187800,
+        "hook": "Dr. Sharon Malone, OB-GYN and menopause expert, joined us to highlight some of the surprising symptoms of perimenopause that sometimes fly under the radar",
+        "why_match": "Directly validates the experience of women whose atypical perimenopause symptoms have been overlooked by healthcare providers by naming them with clinical authority."
+      },
+      {
+        "reddit_topic": "Joint pain and musculoskeletal changes in menopause that doctors don't explain",
+        "url": "https://www.tiktok.com/@drwendy_physicaltherapy/video/7648660419912994078",
+        "views": 3313,
+        "hook": "The musculoskeletal syndrome of menopause is real. It's all the widespread joint pain that is 4/10. It's the frozen shoulder that popped up for no reason.",
+        "why_match": "Names and legitimizes the widespread unexplained joint and muscle pain that midlife women report being dismissed about in medical settings."
+      },
+      {
+        "reddit_topic": "Fatigue and low energy that sleep does not fix",
+        "url": "https://www.tiktok.com/@drtoddstrong/video/7647909751178677518",
+        "views": 90900,
+        "hook": "If I Could Only Give My Gut Patients 5 Supplements — These Are the Ones That Move the Needle Every Time",
+        "why_match": "Addresses the gut-energy connection that many women experiencing unexplained fatigue are exploring when conventional medical advice has not resolved their exhaustion."
+      },
+      {
+        "reddit_topic": "Bloating and digestive issues worsening in midlife",
+        "url": "https://www.tiktok.com/@heal.with.fifi/video/7647547363527052574",
+        "views": 4786,
+        "hook": "What I eat in a day for digestive issues, bloating, hairloss, acne, hormonal issues, and thyroid issues",
+        "why_match": "Directly stacks the exact symptom cluster women 45+ report on Reddit including bloating, hair loss, hormonal disruption, and thyroid issues into a single relatable eating framework."
+      },
+      {
+        "reddit_topic": "Anxiety and nervous system dysregulation feeling worse during perimenopause",
+        "url": "https://www.tiktok.com/@lorrainedaley/video/7646521374894263582",
+        "views": 561900,
+        "hook": "A recent researcher suggests a simple technique to help with nervous system regulation and achieve anxiety relief. By sticking your tongue out for example...",
+        "why_match": "Offers an immediately actionable and low-barrier nervous system tool that speaks to the spike in anxiety women experience as estrogen fluctuates during perimenopause."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@jacksonbro24/video/7648197395695684871",
+        "views": 7100000,
+        "hook": "It's June happy men's mental health month",
+        "angle": "Seasonal awareness hook leveraging Men's Mental Health Month to drive mass emotional engagement."
+      },
+      {
+        "url": "https://www.tiktok.com/@blvck.r7/video/7646727687393840392",
+        "views": 3300000,
+        "hook": "A reminder this Men's Mental Health Month: you don't have to carry everything alone. Check in on your mates.",
+        "angle": "Community care framing within men's mental health awareness drives high share and save behavior."
+      },
+      {
+        "url": "https://www.tiktok.com/@bb_vi7/video/7646504401162587423",
+        "views": 3300000,
+        "hook": "#traumahealing #childhoodtrauma #mentalhealth #relationships #childhood",
+        "angle": "Childhood trauma and relationship healing content resonating with audiences processing formative emotional wounds."
+      },
+      {
+        "url": "https://www.tiktok.com/@cultureratedpv/video/7646921233690299661",
+        "views": 2300000,
+        "hook": "Consistency is key. Katt Williams: The Pimp Chronicles Pt. 1",
+        "angle": "Pop culture clip repurposed under a motivational wellness framing to drive broad discovery."
+      },
+      {
+        "url": "https://www.tiktok.com/@e.1en.aa/video/7647585847017016609",
+        "views": 2000000,
+        "hook": "#elenaspilates #fy #pilates",
+        "angle": "Organic pilates content with minimal optimization achieving massive reach through movement quality alone."
+      },
+      {
+        "url": "https://www.tiktok.com/@kathryn.tatess/video/7646553559395208478",
+        "views": 1000000,
+        "hook": "When I shifted my mindset from: let me wait until I have the energy to do this perfectly to let me just get this done imperfectly",
+        "angle": "Perfectionism and action-taking mindset shift delivered as relatable personal narrative with no hashtags."
+      },
+      {
+        "url": "https://www.tiktok.com/@homeofhopecoree/video/7646910987315973389",
+        "views": 737600,
+        "hook": "let it happen",
+        "angle": "Minimalist peace and surrender messaging within the healing and self-improvement content ecosystem."
+      },
+      {
+        "url": "https://www.tiktok.com/@calmconfidencetherapy/video/7648076544727911711",
+        "views": 620000,
+        "hook": "We need to do better.",
+        "angle": "Therapist-voiced social commentary on youth mental health driving emotional response and shares."
+      },
+      {
+        "url": "https://www.tiktok.com/@lorrainedaley/video/7646521374894263582",
+        "views": 561900,
+        "hook": "A recent researcher suggests a simple technique to help with nervous system regulation and achieve anxiety relief. By sticking your tongue out for example",
+        "angle": "Counterintuitive science-backed nervous system hack framed as an accessible self-regulation tool."
+      },
+      {
+        "url": "https://www.tiktok.com/@superior.mentality/video/7647126381624642837",
+        "views": 503900,
+        "hook": "Choose growth.",
+        "angle": "Short-form growth mindset affirmation content driving saves and profile visits within the self-improvement niche."
+      }
+    ]
+  }
+}
