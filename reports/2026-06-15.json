@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-15",
+  "stats": {
+    "totalCollected": 1220,
+    "recentVideos": 130,
+    "weekOf": "2026-06-15"
+  },
+  "digest": {
+    "week_summary": "This week's TikTok health and wellness space was dominated by three overlapping macro themes: nervous system regulation and somatic healing practices, gut health education and anti-inflammatory eating, and mindful slow-living morning routines. Mental health content remained persistently high-volume but fragmented, while women's hormonal health topics including perimenopause, cycle syncing, and cortisol management showed meaningful emerging momentum among midlife audiences.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#mentalhealth",
+          "video_count": 18,
+          "signal": "stable",
+          "why_now": "Persistent baseline topic that spikes during cultural stress moments but shows no dramatic acceleration this week."
+        },
+        {
+          "tag": "#morningroutine",
+          "video_count": 14,
+          "signal": "stable",
+          "why_now": "Evergreen format anchored by slow-living and cozy aesthetic trends that continues to attract consistent creator output."
+        },
+        {
+          "tag": "#guthealth",
+          "video_count": 13,
+          "signal": "growing",
+          "why_now": "Gut-brain axis science is going mainstream and multiple creators are building serialized educational content around it."
+        },
+        {
+          "tag": "#antiinflammatory",
+          "video_count": 9,
+          "signal": "growing",
+          "why_now": "30-day anti-inflammatory meal challenge formats are driving sustained weekly content series from multiple accounts."
+        },
+        {
+          "tag": "#nervoussystemregulation",
+          "video_count": 8,
+          "signal": "exploding",
+          "why_now": "Somatic healing and nervous system reset content is surging as audiences seek practical at-home tools for anxiety and stress."
+        },
+        {
+          "tag": "#pilates",
+          "video_count": 6,
+          "signal": "stable",
+          "why_now": "Pilates remains a dominant fitness identity category with beginner challenge formats continuing to drive sign-ups and engagement."
+        },
+        {
+          "tag": "#cyclesyncing",
+          "video_count": 6,
+          "signal": "growing",
+          "why_now": "Women's hormonal awareness content is expanding beyond PCOS audiences into general wellness as apps and educators proliferate."
+        },
+        {
+          "tag": "#slowmorning",
+          "video_count": 6,
+          "signal": "stable",
+          "why_now": "Cozy slow-living aesthetics remain a reliable content pillar tied to selfcare and underconsumption movements."
+        }
+      ],
+      "new_this_week": [
+        "#spiralinterrupts",
+        "#lowcortisol",
+        "#nervoussystemhealing",
+        "#guthealing",
+        "#over40wellness"
+      ],
+      "fading": [
+        "#hotgirlwalk",
+        "#cleangirl",
+        "#viral"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Nervous System Reset as Daily Practice",
+        "description": "Creators are positioning quick somatic exercises, EFT tapping, vagus nerve stimulation, and breathwork as essential daily hygiene rather than crisis tools — this directly addresses the overwhelm and anxiety that midlife women frequently report as their top health concern. The format is short, instructional, and highly saveable, making it algorithmically strong.",
+        "example_hook": "Try this gentle nervous system reset to feel calmer, more centered, less anxious, and more like yourself.",
+        "example_url": "https://www.tiktok.com/@starktransformation/video/7650965401320426782",
+        "views": 8608,
+        "why_now": "Post-pandemic anxiety normalization combined with growing mainstream awareness of somatic therapy is pushing nervous system content from niche to mass appeal."
+      },
+      {
+        "trend": "Serialized Anti-Inflammatory Meal Challenges",
+        "description": "Creators are running 30-day anti-inflammatory eating challenges with daily video updates, creating appointment-viewing content that builds community and accountability — a format highly relevant for women 45+ managing joint pain, bloating, and hormonal inflammation. The serialized structure drives follows and return visits rather than one-off views.",
+        "example_hook": "Day 14/30 Antiinflammatory Meals | Antiinflammatory Diet Hub Is LIVE + Rating your sweet potato suggestions",
+        "example_url": "https://www.tiktok.com/@nourishedbyyasmin/video/7650872517682302230",
+        "views": 149100,
+        "why_now": "Audiences are fatigued by restrictive diets and are responding to inclusive, food-positive challenge formats that feel sustainable rather than punishing."
+      },
+      {
+        "trend": "Perimenopause Destigmatization via Humor and Relatability",
+        "description": "A small but growing cluster of creators is addressing perimenopause symptoms — brain fog, hormonal weight gain, mood shifts — with candid, often humorous framing that removes shame and drives strong comment engagement from women who feel unseen by mainstream health media. This is a direct gap opportunity for a 45+ focused app.",
+        "example_hook": "Let @Midi Health help with your perimenopause symptoms so your husband is less annoying.",
+        "example_url": "https://www.tiktok.com/@therealdustinanderson/video/7651032393792458015",
+        "views": 13200,
+        "why_now": "The combination of telehealth perimenopause brands entering the market and a wave of Gen X women aging into this life stage is creating both supply and demand for this content."
+      },
+      {
+        "trend": "Gut-Brain Connection Science Popularization",
+        "description": "Educators and doctors are translating complex neuroscience around the gut-brain axis — serotonin production, neuropods, microbiome diversity — into short accessible TikToks that validate what women 45+ already intuitively feel about digestion and mood. This positions gut health as a mental health intervention, not just a digestive one.",
+        "example_hook": "More bacteria in your body than stars in the sky. They control your metabolism, brain, and 70% of your immune system lives in your gut wall.",
+        "example_url": "https://www.tiktok.com/@timelensclips/video/7649395993024269591",
+        "views": 1104,
+        "why_now": "Consumer gut health supplement sales are at record highs and creators are meeting the education demand that product marketing has created."
+      },
+      {
+        "trend": "Slow Morning as Wellness Identity",
+        "description": "The slow, intentional morning routine has evolved from a lifestyle aesthetic into a wellness identity marker, with creators framing unhurried mornings as a nervous system regulation and cortisol management tool rather than just a cozy visual. For women 45+ this reframes a simple habit as a legitimate health intervention.",
+        "example_hook": "slow rainy morning diary — went for a walk, cleaned my little apartment, and prepared a few salad boxes for the week ahead — just me, the sound of rain",
+        "example_url": "https://www.tiktok.com/@seobake/video/7650839154380573970",
+        "views": 109800,
+        "why_now": "The underconsumption and slow-living movements are intersecting with wellness science to give minimalist morning routines a health-backed narrative that resonates with burned-out midlife women."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@calliegualy",
+        "profile_url": "https://www.tiktok.com/@calliegualy",
+        "why_follow": "Highest-reach fitness creator in this dataset driving significant pilates challenge sign-ups, a format directly applicable to a 45+ fitness app acquisition strategy.",
+        "top_video_url": "https://www.tiktok.com/@calliegualy/video/7649438074828508447",
+        "top_video_views": 1200000,
+        "top_video_hook": "Join my beginner pilates challenge - l!nk in b!o to sign up :)"
+      },
+      {
+        "handle": "@noahtokjenson",
+        "profile_url": "https://www.tiktok.com/@noahtokjenson",
+        "why_follow": "Mental health and exercise intersection content with high organic reach signals audience appetite for emotional-physical wellness crossover narratives.",
+        "top_video_url": "https://www.tiktok.com/@noahtokjenson/video/7650965979693878559",
+        "top_video_views": 417100,
+        "top_video_hook": "Do u want the house tour"
+      },
+      {
+        "handle": "@low.iron.living",
+        "profile_url": "https://www.tiktok.com/@low.iron.living",
+        "why_follow": "Addresses often-overlooked iron deficiency and gut symptoms that are disproportionately common in perimenopausal women, making this creator a high-signal research source for symptom-specific content gaps.",
+        "top_video_url": "https://www.tiktok.com/@low.iron.living/video/7649530142619864350",
+        "top_video_views": 337400,
+        "top_video_hook": "Many gut symptoms are easy to dismiss or blame on stress, certain foods, or simply getting older, but persistent digestive issues can sometimes be you"
+      },
+      {
+        "handle": "@c.andersonhealth",
+        "profile_url": "https://www.tiktok.com/@c.andersonhealth",
+        "why_follow": "High-performing nervous system regulation content with a clinical framing that builds trust — ideal model for how a wellness app could position evidence-based anxiety tools.",
+        "top_video_url": "https://www.tiktok.com/@c.andersonhealth/video/7650317906709941534",
+        "top_video_views": 323900,
+        "top_video_hook": "If you're spiraling right now, save this. Most calming techniques you've heard before don't work in a real spiral because they were built for general"
+      },
+      {
+        "handle": "@nourishedbyyasmin",
+        "profile_url": "https://www.tiktok.com/@nourishedbyyasmin",
+        "why_follow": "Running a successful serialized 30-day anti-inflammatory meal challenge that demonstrates exactly how to build return-viewer habits and community around nutrition content.",
+        "top_video_url": "https://www.tiktok.com/@nourishedbyyasmin/video/7650872517682302230",
+        "top_video_views": 149100,
+        "top_video_hook": "Day 14/30 Antiinflammatory Meals | Antiinflammatory Diet Hub Is LIVE + Rating your sweet potato suggestions"
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Unexplained fatigue and exhaustion that doctors dismiss as normal aging",
+        "url": "https://www.tiktok.com/@low.iron.living/video/7649530142619864350",
+        "views": 337400,
+        "hook": "Many gut symptoms are easy to dismiss or blame on stress, certain foods, or simply getting older, but persistent digestive issues can sometimes be you",
+        "why_match": "This video directly validates the experience of women whose fatigue and gut symptoms are minimized by healthcare providers and reframes them as addressable iron and digestive health issues rather than inevitable aging."
+      },
+      {
+        "reddit_topic": "Anxiety, overwhelm, and not knowing how to calm down in the moment",
+        "url": "https://www.tiktok.com/@c.andersonhealth/video/7650317906709941534",
+        "views": 323900,
+        "hook": "If you're spiraling right now, save this. Most calming techniques you've heard before don't work in a real spiral because they were built for general",
+        "why_match": "This video speaks precisely to the Reddit frustration that standard anxiety advice fails in real moments of overwhelm, offering nervous system specific interventions that feel more credible and actionable."
+      },
+      {
+        "reddit_topic": "Hormonal weight gain and belly fat that won't respond to diet or exercise",
+        "url": "https://www.tiktok.com/@m.rabeeee/video/7650186723325906206",
+        "views": 391,
+        "hook": "To the person who is also struggling with hormonal weight gain, I see you. I feel your struggle, you are not alone.",
+        "why_match": "This video directly addresses the emotional and physical experience of cortisol-driven hormonal weight gain, a top pain point for women 45+ who feel their bodies have changed in ways outside their control."
+      },
+      {
+        "reddit_topic": "Perimenopause symptoms being confusing, isolating, and poorly supported by mainstream medicine",
+        "url": "https://www.tiktok.com/@imnotmessyimbusy/video/7651639357715074335",
+        "views": 4134,
+        "hook": "I've spent a lot of time lately trying to figure out what my symptoms mean and where to even start. An OB-GYN",
+        "why_match": "This creator's candid health update about navigating confusing perimenopausal symptoms and finally finding clinical support mirrors exactly the confusion and isolation women report on Reddit when trying to understand their midlife hormonal changes."
+      },
+      {
+        "reddit_topic": "Bloating, digestive discomfort, and not knowing what foods are causing problems",
+        "url": "https://www.tiktok.com/@nourishedbyyasmin/video/7650872517682302230",
+        "views": 149100,
+        "hook": "Day 14/30 Antiinflammatory Meals | Antiinflammatory Diet Hub Is LIVE + Rating your sweet potato suggestions",
+        "why_match": "The serialized anti-inflammatory meal challenge format directly addresses the Reddit pain point of wanting structured, practical food guidance to reduce inflammation and digestive symptoms without feeling overwhelmed by dietary overhaul."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@calliegualy/video/7649438074828508447",
+        "views": 1200000,
+        "hook": "Join my beginner pilates challenge - l!nk in b!o to sign up :)",
+        "angle": "Beginner pilates challenge with a direct CTA to sign up via bio link, driving app and community conversions."
+      },
+      {
+        "url": "https://www.tiktok.com/@noahtokjenson/video/7650965979693878559",
+        "views": 417100,
+        "hook": "Do u want the house tour",
+        "angle": "Mental health and exercise lifestyle content framed through relatable personal narrative with high organic curiosity engagement."
+      },
+      {
+        "url": "https://www.tiktok.com/@ironmaiden_92.0/video/7649621894857035039",
+        "views": 363900,
+        "hook": "Ahhh",
+        "angle": "Minimal-text high-emotion content that went viral organically without hashtag strategy, driven purely by algorithmic amplification."
+      },
+      {
+        "url": "https://www.tiktok.com/@low.iron.living/video/7649530142619864350",
+        "views": 337400,
+        "hook": "Many gut symptoms are easy to dismiss or blame on stress, certain foods, or simply getting older, but persistent digestive issues can sometimes be you",
+        "angle": "Symptom validation content that reframes dismissed health complaints as legitimate iron and gut health issues for women."
+      },
+      {
+        "url": "https://www.tiktok.com/@c.andersonhealth/video/7650317906709941534",
+        "views": 323900,
+        "hook": "If you're spiraling right now, save this. Most calming techniques you've heard before don't work in a real spiral because they were built for general",
+        "angle": "Nervous system regulation positioned as superior to generic calming advice, with a strong save-trigger hook."
+      },
+      {
+        "url": "https://www.tiktok.com/@trulykaos/video/7650695839358274829",
+        "views": 282400,
+        "hook": "People Can Only Give What They Have",
+        "angle": "Short-form motivational mental health philosophy that drives shares through universal emotional resonance."
+      },
+      {
+        "url": "https://www.tiktok.com/@hannahs_poems/video/7651218272901172513",
+        "views": 245600,
+        "hook": "#depression #relatable #mentalhealth #positiv",
+        "angle": "Poetry or reflective content around depression and mental health that performs through deep emotional relatability."
+      },
+      {
+        "url": "https://www.tiktok.com/@eixchelb/video/7650287088515976462",
+        "views": 202100,
+        "hook": "Cuéntenme que tal les va con el mat pilates — llevo 3 días y estoy amando!!",
+        "angle": "Personal pilates journey diary building authentic community through progress vulnerability and bilingual reach."
+      },
+      {
+        "url": "https://www.tiktok.com/@pinkcoconutt/video/7650550489913871649",
+        "views": 158100,
+        "hook": "Asmr rainy morning routine",
+        "angle": "ASMR slow morning routine combining sensory wellness content with selfcare aesthetics for maximum save and rewatch value."
+      },
+      {
+        "url": "https://www.tiktok.com/@viral_3666/video/7650168741937827102",
+        "views": 154900,
+        "hook": "Do Men Go Through Their Own Version of Menopause After 30? | 3D Medical Animation",
+        "angle": "3D medical animation explaining andropause drives curiosity clicks through an unexpected gender-flipped hormonal health angle."
+      }
+    ]
+  }
+}
