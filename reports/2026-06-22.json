@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-22",
+  "stats": {
+    "totalCollected": 1131,
+    "recentVideos": 230,
+    "weekOf": "2026-06-22"
+  },
+  "digest": {
+    "week_summary": "This week's TikTok health and wellness space was dominated by three converging waves: the viral 'Hot Girl Walk' trademark controversy pulled millions of views away from pure fitness content, nervous system regulation and somatic healing continued their strong upward trajectory with dozens of creators posting breathwork, vagus nerve, and trauma-release content, and gut health remained a high-volume pillar with anti-inflammatory eating, fermented foods, and bloating remedies all performing well. For women 45+, the most relevant signals were perimenopause awareness, cortisol/adrenal fatigue discourse, red light therapy for anti-aging, and cycle syncing — all appearing in the data with growing momentum despite lower individual view counts.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#hotgirlwalk",
+          "video_count": 18,
+          "signal": "exploding",
+          "why_now": "A trademark dispute between creator Mia Lind and the broader fitness community ignited a viral controversy that pulled in lawyers, fitness creators, and commentary accounts all week."
+        },
+        {
+          "tag": "#guthealth",
+          "video_count": 16,
+          "signal": "stable",
+          "why_now": "Gut health remains a perennial TikTok pillar, sustained by new research hooks, product tie-ins, and a broadening audience connecting gut issues to mood, skin, and energy."
+        },
+        {
+          "tag": "#mentalhealth",
+          "video_count": 14,
+          "signal": "stable",
+          "why_now": "Mental health content maintains consistent volume as creators blend anxiety, depression, and nervous system content into broadly relatable short-form posts."
+        },
+        {
+          "tag": "#nervoussystem",
+          "video_count": 13,
+          "signal": "growing",
+          "why_now": "Nervous system regulation has graduated from niche trauma-therapy circles into mainstream wellness, with creators offering quick somatic exercises as everyday stress tools."
+        },
+        {
+          "tag": "#antiinflammatory",
+          "video_count": 12,
+          "signal": "growing",
+          "why_now": "Anti-inflammatory eating is gaining ground as a lifestyle identity beyond weight loss, attracting audiences interested in pain relief, skin health, and longevity."
+        },
+        {
+          "tag": "#somatichealing",
+          "video_count": 10,
+          "signal": "growing",
+          "why_now": "Somatic healing content is riding the broader nervous system trend, with body-based trauma release practices going increasingly mainstream on wellness TikTok."
+        },
+        {
+          "tag": "#morningroutine",
+          "video_count": 12,
+          "signal": "stable",
+          "why_now": "Slow morning and morning routine content remains a reliable high-engagement format, with a aesthetic, low-pressure framing that resonates broadly."
+        },
+        {
+          "tag": "#cyclesyncing",
+          "video_count": 8,
+          "signal": "growing",
+          "why_now": "Cycle syncing content is expanding beyond its core audience as creators connect hormonal awareness to energy management, productivity, and mood — themes relevant well into perimenopause."
+        }
+      ],
+      "new_this_week": [
+        "#hotgirlwalktrademark",
+        "#lowcortisol",
+        "#adrenalreset",
+        "#somaticmovement",
+        "#nervoussystemreset"
+      ],
+      "fading": [
+        "#strongnotskinny",
+        "#zone2",
+        "#dopaminedetox"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Longevity Functional Tests as Content",
+        "description": "Creators are filming themselves doing simple functional fitness tests — like putting on a sock standing up or balance checks — and framing passing them as signs of long-term health, which resonates strongly with women 45+ who want to benchmark their vitality without gym metrics. This format democratizes longevity science into an instantly relatable, shareable moment.",
+        "example_hook": "You can put your sock on standing up. Without holding onto anything. That one thing tells doctors a lot about how long you'll live.",
+        "example_url": "https://www.tiktok.com/@drjude_/video/7651996786025843975",
+        "views": 5000000,
+        "why_now": "Longevity content is surging as the wellness industry shifts from aesthetics to healthspan, and simple at-home tests give audiences an immediate, emotionally resonant way to self-assess."
+      },
+      {
+        "trend": "Somatic and Nervous System Reset Exercises",
+        "description": "Short-form videos teaching 1-5 minute physical techniques — jaw releases, collarbone tapping, spinal shaking, breathwork — to regulate the nervous system are proliferating rapidly, appealing to women 45+ managing chronic stress, perimenopause anxiety, and sleep disruption. The format works because it delivers an immediate felt-sense result viewers can experience while watching.",
+        "example_hook": "Try this gentle nervous system reset to feel calmer, more centered, less anxious, and more like yourself.",
+        "example_url": "https://www.tiktok.com/@starktransformation/video/7652061553822371103",
+        "views": 33200,
+        "why_now": "Post-pandemic stress awareness combined with growing mainstream familiarity with polyvagal theory has created a large audience hungry for accessible, body-based self-regulation tools."
+      },
+      {
+        "trend": "Adrenal Fatigue and Cortisol Recovery Storytelling",
+        "description": "Creators are sharing first-person recovery arcs framed around 'healing adrenal fatigue' and 'lowering cortisol,' positioning rest, gentle movement, and nourishing food as medical recovery rather than laziness — a reframe that speaks directly to exhausted women 45+ who've been told their fatigue is normal. The 'low cortisol' label is being reclaimed as aspirational lifestyle content.",
+        "example_hook": "Healed my adrenal fatigue and we are so back.",
+        "example_url": "https://www.tiktok.com/@torimelhop/video/7653752806653971732",
+        "views": 43400,
+        "why_now": "The cortisol conversation is maturing from a trend into a lifestyle identity, with 'low cortisol living' emerging as a counterculture to hustle content and resonating especially with perimenopausal women experiencing unexplained fatigue."
+      },
+      {
+        "trend": "Perimenopause and Early Menopause Education by Doctors",
+        "description": "Medical creators are posting direct-to-camera explainers telling women in their early-to-mid 40s that perimenopause symptoms — bloating, food sensitivities, mood shifts, irregular cycles — start far earlier than most expect, filling an information gap that mainstream medicine has left open. This is a high-trust format that directly serves our target demographic.",
+        "example_hook": "It starts earlier than you think. If you're in your 40s and thinking you're too young for menopause, the data says otherwise.",
+        "example_url": "https://www.tiktok.com/@drnighatarif/video/7653220410862898454",
+        "views": 26600,
+        "why_now": "A wave of newly vocal women's health advocates and perimenopause-focused physicians are reaching TikTok simultaneously, meeting surging demand from women 40-55 who feel unseen by traditional healthcare."
+      },
+      {
+        "trend": "Red Light Therapy Anti-Aging Transformations",
+        "description": "Creators are posting multi-month before-and-after content showing skin, hair, and recovery results from consistent red light therapy use, framing the technology as accessible at-home anti-aging — a compelling angle for women 45+ seeking non-invasive alternatives to cosmetic procedures. The format combines scientific credibility hooks with dramatic visual transformation payoff.",
+        "example_hook": "Does red light therapy actually work for hair growth? Watch this incredible 120-day transformation from experiment to reality.",
+        "example_url": "https://www.tiktok.com/@ergonomicluxstore1/video/7653500242242964749",
+        "views": 457100,
+        "why_now": "As red light therapy devices have dropped in price and proliferated on TikTok Shop, creators are generating enough longitudinal content to show compelling transformation timelines that drive both trust and purchase intent."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@drjude_",
+        "profile_url": "https://www.tiktok.com/@drjude_",
+        "why_follow": "A medical creator blending longevity science with instantly testable, emotionally resonant hooks that consistently break into the millions — a gold standard for health content targeting women 45+.",
+        "top_video_url": "https://www.tiktok.com/@drjude_/video/7651996786025843975",
+        "top_video_views": 5000000,
+        "top_video_hook": "You can put your sock on standing up. Without holding onto anything. That tells doctors a lot about how long you'll live."
+      },
+      {
+        "handle": "@dikayfit",
+        "profile_url": "https://www.tiktok.com/@dikayfit",
+        "why_follow": "A fitness community builder whose in-person walk events and Hot Girl Walk controversy response generated over 4M combined views this week, signaling strong real-world and digital community pull.",
+        "top_video_url": "https://www.tiktok.com/@dikayfit/video/7651807819737353486",
+        "top_video_views": 3100000,
+        "top_video_hook": "Hosted a hot girl walk in the DMV — come find your people."
+      },
+      {
+        "handle": "@alexahasanxiety",
+        "profile_url": "https://www.tiktok.com/@alexahasanxiety",
+        "why_follow": "An anxiety and OCD content creator whose raw, relatable mental health content drove 2.1M views in a single video, demonstrating the reach of authentic personal narrative in the mental health space.",
+        "top_video_url": "https://www.tiktok.com/@alexahasanxiety/video/7651732198919392526",
+        "top_video_views": 2100000,
+        "top_video_hook": "Makes me lock TF in. My panic people understand lol."
+      },
+      {
+        "handle": "@kinnnyb",
+        "profile_url": "https://www.tiktok.com/@kinnnyb",
+        "why_follow": "A gut health creator who paired actionable digestive health content with TikTok Shop deals to generate 1.7M views, illustrating how commerce integration is amplifying wellness content reach.",
+        "top_video_url": "https://www.tiktok.com/@kinnnyb/video/7653196785808166158",
+        "top_video_views": 1700000,
+        "top_video_hook": "Fix your gut — here's everything you need."
+      },
+      {
+        "handle": "@ergonomicluxstore1",
+        "profile_url": "https://www.tiktok.com/@ergonomicluxstore1",
+        "why_follow": "A red light therapy product creator generating nearly half a million views with transformation content, making them a key signal source for the at-home anti-aging device trend relevant to women 45+.",
+        "top_video_url": "https://www.tiktok.com/@ergonomicluxstore1/video/7653500242242964749",
+        "top_video_views": 457100,
+        "top_video_hook": "Does red light therapy actually work for hair growth? Watch this incredible 120-day transformation from experiment to reality."
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Unexplained fatigue and exhaustion in women 40s-50s that doctors dismiss",
+        "url": "https://www.tiktok.com/@torimelhop/video/7653752806653971732",
+        "views": 43400,
+        "hook": "Healed my adrenal fatigue and we are so back.",
+        "why_match": "This video directly validates the experience of women whose fatigue has been dismissed by framing recovery from adrenal burnout as real and achievable, not imaginary."
+      },
+      {
+        "reddit_topic": "Perimenopause symptoms starting earlier than expected and being unrecognized",
+        "url": "https://www.tiktok.com/@drnighatarif/video/7653220410862898454",
+        "views": 26600,
+        "hook": "It starts earlier than you think. If you're in your 40s and thinking you're too young for menopause, the data says otherwise.",
+        "why_match": "This doctor-led video directly addresses the pain point of women in their early 40s being told they're too young for perimenopause while actively experiencing its symptoms."
+      },
+      {
+        "reddit_topic": "Bloating, IBS, and new food sensitivities appearing in midlife with no clear cause",
+        "url": "https://www.tiktok.com/@drarmikhanextras/video/7653882462862347542",
+        "views": 42200,
+        "hook": "Lots of women get bloating, IBS flares and new food sensitivities around the perimenopause.",
+        "why_match": "This video explicitly connects the perimenopause transition to the gut symptom cluster — bloating, IBS, food sensitivities — that women in this demographic frequently report and struggle to get diagnosed."
+      },
+      {
+        "reddit_topic": "Anxiety and racing thoughts at night disrupting sleep in midlife women",
+        "url": "https://www.tiktok.com/@melrobbins/video/7651721598969449759",
+        "views": 81600,
+        "hook": "If your thoughts start racing and your anxiety hits at night, try this.",
+        "why_match": "This video offers a concrete, immediately actionable tool for the nocturnal anxiety and racing-mind pattern that perimenopausal women consistently report as their most disruptive sleep barrier."
+      },
+      {
+        "reddit_topic": "Feeling disconnected from body, chronic tension, and stress stored physically",
+        "url": "https://www.tiktok.com/@trainouttapain/video/7651699539539234061",
+        "views": 12500,
+        "hook": "A branch of the vagus nerve runs directly below your collarbone. Every time you do this, you send a direct calm signal to your brain.",
+        "why_match": "This vagus nerve activation technique directly addresses the somatic experience of stored tension and body disconnection that many women 45+ describe when chronic stress becomes physically embodied."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@drjude_/video/7651996786025843975",
+        "views": 5000000,
+        "hook": "You can put your sock on standing up. Without holding onto anything. That one thing tells doctors a lot about how long you'll live.",
+        "angle": "Longevity self-assessment reframed as an instantly accessible functional test anyone can do at home."
+      },
+      {
+        "url": "https://www.tiktok.com/@dikayfit/video/7651807819737353486",
+        "views": 3100000,
+        "hook": "Hosted a hot girl walk in the DMV — come find your people.",
+        "angle": "Community fitness event content riding the Hot Girl Walk controversy wave and demonstrating real-world social fitness momentum."
+      },
+      {
+        "url": "https://www.tiktok.com/@alexahasanxiety/video/7651732198919392526",
+        "views": 2100000,
+        "hook": "Makes me lock TF in. My panic people understand lol.",
+        "angle": "Raw anxiety and panic disorder identity content that builds community through shared experience and dark humor."
+      },
+      {
+        "url": "https://www.tiktok.com/@kinnnyb/video/7653196785808166158",
+        "views": 1700000,
+        "hook": "Fix your gut — here's everything you need.",
+        "angle": "Gut health education paired with TikTok Shop product integration, using urgency framing to drive both engagement and conversion."
+      },
+      {
+        "url": "https://www.tiktok.com/@saronthings/video/7652799735228550430",
+        "views": 1600000,
+        "hook": "This was a very strange time for her to publicly comment — it will inevitably lead to her having to abandon the trademark one way or another.",
+        "angle": "Commentary and analysis of the Hot Girl Walk trademark controversy from a skeptical, audience-aligned perspective."
+      },
+      {
+        "url": "https://www.tiktok.com/@mel.is.heretostay/video/7652590042505825556",
+        "views": 1300000,
+        "hook": "9 weeks pregnant.",
+        "angle": "Authentic pregnancy announcement content capturing peak emotional engagement through minimalist, single-hashtag vulnerability."
+      },
+      {
+        "url": "https://www.tiktok.com/@cafecom_leite_/video/7653285568167677204",
+        "views": 1200000,
+        "hook": "W Vinicius Junior — low cortisol era.",
+        "angle": "Cortisol trend language applied playfully to celebrity sports content, showing how wellness vocabulary has permeated mainstream pop culture."
+      },
+      {
+        "url": "https://www.tiktok.com/@poodle1231224/video/7652111401229536543",
+        "views": 990800,
+        "hook": "I am simply informing everyone to be careful while using this — please protect yourself.",
+        "angle": "Consumer safety warning content leveraging distrust and protective instincts to drive shares and saves."
+      },
+      {
+        "url": "https://www.tiktok.com/@rainysunnyorcloudy/video/7651934681641930017",
+        "views": 940800,
+        "hook": "Breakup. Loss. Letting go. Healing in your 20s hits different.",
+        "angle": "Emotional healing and grief processing content framed for a young adult audience but with universal resonance across age groups."
+      },
+      {
+        "url": "https://www.tiktok.com/@trinitytondeleir/video/7653233085831482631",
+        "views": 939400,
+        "hook": "WTF.",
+        "angle": "Reaction or commentary content using minimal text to drive curiosity-gap clicks, likely tied to a trending news or wellness controversy moment."
+      }
+    ]
+  }
+}
