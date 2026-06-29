@@ -1,0 +1,258 @@
+{
+  "date": "2026-06-29",
+  "stats": {
+    "totalCollected": 1199,
+    "recentVideos": 209,
+    "weekOf": "2026-06-29"
+  },
+  "digest": {
+    "week_summary": "This week's TikTok health and wellness space was dominated by nervous system regulation, perimenopause/menopause awareness, and the ongoing Hot Girl Walk trademark controversy. Anxiety content and somatic healing exercises drove massive engagement, while gut health, cortisol management, and slow-living aesthetics rounded out the top themes. Anti-inflammatory eating and longevity biohacking content continued to build momentum, particularly among creators speaking to midlife women.",
+    "hashtag_summary": {
+      "top_hashtags": [
+        {
+          "tag": "#selfcare",
+          "video_count": 18,
+          "signal": "stable",
+          "why_now": "Evergreen content anchor showing up in night routines, morning rituals, and healing content across all demographics."
+        },
+        {
+          "tag": "#nervoussystemregulation",
+          "video_count": 14,
+          "signal": "exploding",
+          "why_now": "Somatic healing and nervous system reset content is surging as audiences seek body-based tools for anxiety and trauma recovery."
+        },
+        {
+          "tag": "#anxiety",
+          "video_count": 12,
+          "signal": "growing",
+          "why_now": "Multiple high-view videos this week explicitly named physical anxiety symptoms, broadening the conversation beyond mental health circles."
+        },
+        {
+          "tag": "#perimenopause",
+          "video_count": 11,
+          "signal": "exploding",
+          "why_now": "A wave of creator-led education and humor around unrecognized perimenopause symptoms is resonating strongly with women 40-55."
+        },
+        {
+          "tag": "#guthealth",
+          "video_count": 11,
+          "signal": "growing",
+          "why_now": "Gut microbiome content is expanding from diet advice into brain-gut connection and autoimmune territory, deepening audience interest."
+        },
+        {
+          "tag": "#slowliving",
+          "video_count": 10,
+          "signal": "stable",
+          "why_now": "Slow morning and slow life aesthetic content remains a consistent refuge format appealing to women seeking calm and intentionality."
+        },
+        {
+          "tag": "#antiinflammatory",
+          "video_count": 9,
+          "signal": "growing",
+          "why_now": "Anti-inflammatory hauls, meal prep, and grocery guides are proliferating as audiences connect diet directly to chronic symptoms."
+        },
+        {
+          "tag": "#hotgirlwalk",
+          "video_count": 8,
+          "signal": "growing",
+          "why_now": "The Hot Girl Walk trademark dispute injected viral controversy into an already-popular movement, spiking discussion across creator types."
+        }
+      ],
+      "new_this_week": [
+        "#lowcortisol",
+        "#somaticexercises",
+        "#cyclesyncing",
+        "#fatlossover40",
+        "#girltherapy"
+      ],
+      "fading": [
+        "#cottagecore",
+        "#binauralbeats",
+        "#tiktoktbfilmcontest"
+      ]
+    },
+    "new_trends": [
+      {
+        "trend": "Unrecognized Perimenopause Symptoms Explainer",
+        "description": "Creators are calling out the surprising, non-obvious symptoms of perimenopause — heart palpitations, new allergies, dizziness, migraines — that women and doctors often miss entirely. This directly serves women 45+ who feel gaslit by the medical system and are desperately searching for explanations for mysterious physical changes.",
+        "example_hook": "Anxiety. Dizziness. Heart palpitations. Migraines. New allergies. None of those sound like perimenopause symptoms, but they can be.",
+        "example_url": "https://www.tiktok.com/@nancyychristine/video/7655854372928113934",
+        "views": 18900,
+        "why_now": "Growing mainstream awareness of perimenopause — amplified by Netflix documentaries and celebrity conversations — is pushing women to self-educate on TikTok ahead of doctor visits."
+      },
+      {
+        "trend": "Somatic Exercises for Nervous System Reset",
+        "description": "Short, practical body-based exercises targeting cranial nerves, hip release, and vagal tone are being shared as accessible anxiety and stress tools anyone can do at home. For women 45+ managing chronic stress, hormonal mood shifts, and stored tension, this format offers immediate, actionable relief without requiring gym access or equipment.",
+        "example_hook": "Can you do this? It's a simple way to stimulate your cranial nerves, help regulate your nervous system, soften anxiety, stress, and inner tension.",
+        "example_url": "https://www.tiktok.com/@stevenintercontinental/video/7656146943978016020",
+        "views": 70000,
+        "why_now": "Post-pandemic somatic healing discourse has matured into mainstream wellness, with audiences now comfortable with body-based language that previously felt fringe."
+      },
+      {
+        "trend": "Low Cortisol Aesthetic and Lifestyle Identity",
+        "description": "'Low cortisol' is rapidly evolving from a clinical term into a lifestyle identity and aesthetic shorthand for calm, unhurried, stress-free living — appearing in morning vlogs, memes, and pet content alike. For a wellness app targeting women 45+, this signals an opportunity to position products and content around cortisol balance as an aspirational state rather than a medical problem.",
+        "example_hook": "simple home vlog to lower your cortisol levels",
+        "example_url": "https://www.tiktok.com/@laurenmaile/video/7656508271976664334",
+        "views": 8753,
+        "why_now": "Cortisol has become the pop-science word of the moment for explaining burnout, weight gain, and mood instability — concepts deeply resonant with perimenopausal women."
+      },
+      {
+        "trend": "Realistic Fat Loss Over 40 — Anti-Hype Takes",
+        "description": "Creators are pushing back against unrealistic weight loss content by sharing unsexy, honest takes on what fat loss actually looks like for women over 40, including the role of hormones, muscle loss, and metabolic slowdown. This format earns trust by validating frustration and meeting the audience where they are rather than selling fantasy.",
+        "example_hook": "Not so hot weight loss hot takes. Just the unsexy realistic side of weight loss.",
+        "example_url": "https://www.tiktok.com/@ablack_fitness/video/7656229514321595662",
+        "views": 38100,
+        "why_now": "Women over 40 are increasingly vocal on TikTok about being failed by generic diet advice, and creators who speak specifically to their physiology are winning disproportionate loyalty."
+      },
+      {
+        "trend": "Gut-Brain-Hormone Connection Education",
+        "description": "Creators are connecting gut health to serotonin production, hormonal balance, and mood regulation in short explainer formats that make the science feel personal and urgent. This multi-system framing is particularly relevant for women 45+ who are simultaneously navigating perimenopause, mood changes, and digestive symptoms they may not realize are linked.",
+        "example_hook": "Your gut produces 90% of your serotonin. So when your gut is healthy, your mind is clear and your spirit is receptive.",
+        "example_url": "https://www.tiktok.com/@human.success1/video/7654661686636465439",
+        "views": 894,
+        "why_now": "The gut-brain axis is becoming a mainstream wellness framework as creators and clinicians alike translate microbiome research into relatable hormone and mood content."
+      }
+    ],
+    "top_profiles": [
+      {
+        "handle": "@julianna_claire",
+        "profile_url": "https://www.tiktok.com/@julianna_claire",
+        "why_follow": "Drives massive engagement with aspirational self-care rituals that blend aesthetics and wellness, giving us insight into what format and mood resonates for women seeking evening wind-down content.",
+        "top_video_url": "https://www.tiktok.com/@julianna_claire/video/7655711775303699742",
+        "top_video_views": 2600000,
+        "top_video_hook": "Mermaid self-care night — self care tips, self care ideas, unwind with"
+      },
+      {
+        "handle": "@emersynrosee",
+        "profile_url": "https://www.tiktok.com/@emersynrosee",
+        "why_follow": "Generates multi-million views on brain and body science content with minimal production, signaling strong appetite for accessible neuroscience education in our target demographic.",
+        "top_video_url": "https://www.tiktok.com/@emersynrosee/video/7655516499330829598",
+        "top_video_views": 2300000,
+        "top_video_hook": "The brain is just so cool"
+      },
+      {
+        "handle": "@saronthings",
+        "profile_url": "https://www.tiktok.com/@saronthings",
+        "why_follow": "Captures viral cultural commentary on fitness trends like Hot Girl Walk, making her a useful signal for understanding how wellness movements are being debated and reframed in real time.",
+        "top_video_url": "https://www.tiktok.com/@saronthings/video/7654341452562025758",
+        "top_video_views": 1500000,
+        "top_video_hook": "The audacity of Mia Lind is actually incredible — Hot Girl Walk trademark drama"
+      },
+      {
+        "handle": "@100anxietytips",
+        "profile_url": "https://www.tiktok.com/@100anxietytips",
+        "why_follow": "Consistently high-performing anxiety content with a relatable, non-clinical tone that mirrors the language our target audience uses to describe their inner experience.",
+        "top_video_url": "https://www.tiktok.com/@100anxietytips/video/7655511370221341965",
+        "top_video_views": 1100000,
+        "top_video_hook": "Can you relate? #anxious #anxiety"
+      },
+      {
+        "handle": "@groundandgrowpgh",
+        "profile_url": "https://www.tiktok.com/@groundandgrowpgh",
+        "why_follow": "Therapist-led OCD and mental health content that reaches over a million viewers, demonstrating the reach of credentialed wellness voices when they speak to stigmatized but common experiences.",
+        "top_video_url": "https://www.tiktok.com/@groundandgrowpgh/video/7654701580297506079",
+        "top_video_views": 1100000,
+        "top_video_hook": "Just to name a few — OCD awareness and therapy education"
+      }
+    ],
+    "reddit_matched_videos": [
+      {
+        "reddit_topic": "Women feeling dismissed or gaslit by doctors about perimenopause symptoms",
+        "url": "https://www.tiktok.com/@nancyychristine/video/7655854372928113934",
+        "views": 18900,
+        "hook": "Anxiety. Dizziness. Heart palpitations. Migraines. New allergies. None of those sound like perimenopause symptoms, but they can be.",
+        "why_match": "Directly validates the experience of women whose atypical perimenopause symptoms were missed or dismissed by healthcare providers, offering the recognition and education they sought from Reddit communities."
+      },
+      {
+        "reddit_topic": "Chronic bloating, digestive discomfort, and not knowing why despite normal test results",
+        "url": "https://www.tiktok.com/@esophagal/video/7654620541499804941",
+        "views": 1686,
+        "hook": "Normal tests don't mean your symptoms are all in your head.",
+        "why_match": "Explicitly addresses the pain point of women who receive normal lab results while still experiencing real digestive distress, validating their experience and pointing toward functional gut issues as an explanation."
+      },
+      {
+        "reddit_topic": "Difficulty losing weight or body composition changes after 40 despite trying",
+        "url": "https://www.tiktok.com/@ablack_fitness/video/7656229514321595662",
+        "views": 38100,
+        "hook": "Not so hot weight loss hot takes. Just the unsexy realistic side of weight loss.",
+        "why_match": "Speaks directly to midlife women exhausted by ineffective conventional diet advice by naming the real hormonal and metabolic factors that make fat loss different over 40."
+      },
+      {
+        "reddit_topic": "Feeling chronically stressed, wired but tired, unable to wind down even at rest",
+        "url": "https://www.tiktok.com/@stevenintercontinental/video/7656146943978016020",
+        "views": 70000,
+        "hook": "Can you do this? It's a simple way to stimulate your cranial nerves, help regulate your nervous system, soften anxiety, stress, and inner tension.",
+        "why_match": "Offers an immediate, body-based intervention for the wired-but-tired nervous system dysregulation that midlife women frequently report on Reddit as a confusing and debilitating symptom cluster."
+      },
+      {
+        "reddit_topic": "Mood swings, anxiety, and emotional volatility tied to hormonal fluctuations",
+        "url": "https://www.tiktok.com/@kierstin.claire/video/7655106601220721950",
+        "views": 387600,
+        "hook": "It's a horror story. Happy Menopausal Monday — yes, I know it's Wednesday, but ya know, menopause.",
+        "why_match": "Uses humor and relatable self-deprecation to normalize the cognitive and emotional chaos of perimenopause, directly mirroring the tone women use on Reddit to cope with and describe hormonal mood shifts."
+      }
+    ],
+    "top_videos": [
+      {
+        "url": "https://www.tiktok.com/@julianna_claire/video/7655711775303699742",
+        "views": 2600000,
+        "hook": "Mermaid self-care night — self care tips, self care ideas, unwind with",
+        "angle": "Aspirational nighttime self-care ritual framed as a sensory, aesthetic experience to inspire and relax the viewer."
+      },
+      {
+        "url": "https://www.tiktok.com/@emersynrosee/video/7655516499330829598",
+        "views": 2300000,
+        "hook": "The brain is just so cool",
+        "angle": "Accessible brain science content delivered with wonder and simplicity, driving enormous organic curiosity-based engagement."
+      },
+      {
+        "url": "https://www.tiktok.com/@saronthings/video/7654341452562025758",
+        "views": 1500000,
+        "hook": "The audacity of Mia Lind is actually incredible — Hot Girl Walk trademark drama",
+        "angle": "Cultural commentary on wellness trend ownership and creator ethics, tapping into viral controversy to drive watch time and shares."
+      },
+      {
+        "url": "https://www.tiktok.com/@woollymamoo/video/7655830355785600287",
+        "views": 1300000,
+        "hook": "Simple as that — child-free spaces and third places",
+        "angle": "Lifestyle validation content for child-free or empty-nester adults seeking social permission to prioritize personal space and decompression."
+      },
+      {
+        "url": "https://www.tiktok.com/@groundandgrowpgh/video/7654701580297506079",
+        "views": 1100000,
+        "hook": "Just to name a few — OCD awareness content from a therapist",
+        "angle": "Credentialed mental health education that normalizes OCD experiences, driving massive reach through recognition and relatability."
+      },
+      {
+        "url": "https://www.tiktok.com/@100anxietytips/video/7655511370221341965",
+        "views": 1100000,
+        "hook": "Can you relate? #anxious #anxiety",
+        "angle": "High-relatability anxiety content using minimal production to generate strong emotional recognition and share behavior."
+      },
+      {
+        "url": "https://www.tiktok.com/@bassvibes06/video/7655412370881170706",
+        "views": 774100,
+        "hook": "#memestiktok #memes",
+        "angle": "Meme content riding trending audio or format to capture broad FYP distribution with minimal niche targeting."
+      },
+      {
+        "url": "https://www.tiktok.com/@thealchemistlynn/video/7655414032995749153",
+        "views": 768500,
+        "hook": "Clean vamp maintenance — beauty and body care routine",
+        "angle": "Aesthetic body care and skincare maintenance routine using a subculture identity frame to attract a highly engaged beauty-wellness audience."
+      },
+      {
+        "url": "https://www.tiktok.com/@abbieherbert/video/7654401415690997023",
+        "views": 527300,
+        "hook": "Sober life is the best life for me",
+        "angle": "Sobriety lifestyle content that normalizes alcohol-free living through personal testimony, resonating with a rapidly growing sober-curious audience."
+      },
+      {
+        "url": "https://www.tiktok.com/@lifeofdeni/video/7654440420348415240",
+        "views": 519500,
+        "hook": "Good day! — mini vlog, living alone, relaxing morning",
+        "angle": "Cozy solo living vlog that celebrates quiet domestic contentment, appealing to women who find comfort in slow and intentional daily rhythms."
+      }
+    ]
+  }
+}
